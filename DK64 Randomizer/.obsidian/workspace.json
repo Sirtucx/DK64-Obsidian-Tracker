@@ -1,0 +1,193 @@
+{
+  "main": {
+    "id": "9b86c1d4d95337de",
+    "type": "split",
+    "children": [
+      {
+        "id": "fd3f04f448ae4c70",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "2d4836bcc6f4d86d",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "graph",
+              "state": {},
+              "pinned": true,
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "20fc963684692b6c",
+    "type": "split",
+    "children": [
+      {
+        "id": "5d7971a350a4951c",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c1c59ed7fbb82d38",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "92de202b61716476",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "strong",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "009059ed2372d603",
+    "type": "split",
+    "children": [
+      {
+        "id": "9df223cdd91d0ff6",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "a1851300f2615aa5",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks"
+            }
+          },
+          {
+            "id": "f4674ae4e418a3c6",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Key 8.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Key 8"
+            }
+          },
+          {
+            "id": "bace8883f8c9688a",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Lanky/Trombone.md",
+                "followCursor": false,
+                "showSearch": true,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Trombone"
+            }
+          }
+        ],
+        "currentTab": 2
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "bases:Create new base": false,
+      "graph:Open graph view": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "2d4836bcc6f4d86d",
+  "lastOpenFiles": [
+    "Chunky/Hunky.md",
+    "Phases/Chunky Phase.md",
+    "Shared/Camera.md",
+    "DK64-Obsidian-Tracker/README.md",
+    "DK64-Obsidian-Tracker",
+    "DK/Strong.md",
+    "Misc/Sphere 0.md",
+    "Tiny/Sax.md",
+    "Diddy/Guitar.md",
+    "Lanky/Grape.md",
+    "Tiny/Feather.md",
+    "Shared/Barrel Throwing.md",
+    "Lanky/Balloon.md",
+    "Tiny/Twirl.md",
+    "Lanky/OStand.md",
+    "Shared/Vine Swinging.md",
+    "DK/Grab.md",
+    "Diddy/Spring.md",
+    "Diddy/Rocket.md",
+    "Tiny/Mini.md",
+    "Shared/Super Simian Slam (Slam 2).md",
+    "Chunky/Gone.md",
+    "Shared/Super Duper Simian Slam (Slam 3).md",
+    "Tiny/Monkeyport.md",
+    "Chunky/Punch.md",
+    "Shared/Homing Ammo.md",
+    "Shops/Cranky.md",
+    "Assets/Misc/Sphere Zero.png",
+    "Assets/Misc/_Medal.png",
+    "Assets/Misc/bananamedal.png",
+    "Assets/Shops/_Candy.png",
+    "Assets/Tiny/_Mini Monkey.png",
+    "Assets/Tiny/sax_base64.txt",
+    "Assets/Tiny/mini_base64.txt",
+    "Assets/Misc/Start.webp",
+    "Assets/Misc/_bean.png",
+    "Assets/Misc/_Free Kongs.png",
+    "Assets/Chunky/_Chunky.png",
+    "Assets/Chunky/_Gorilla Gone.png",
+    "Keys",
+    "Phases",
+    "Misc",
+    "Tiny",
+    "Shops",
+    "Shared",
+    "Lanky",
+    "Untitled.canvas",
+    "Test.canvas",
+    "Mind Map.canvas"
+  ]
+}
