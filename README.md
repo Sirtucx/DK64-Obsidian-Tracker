@@ -20,7 +20,7 @@ Setting up the project:
 How to use this project:
 
 * In order to use it on stream you will need to open two instances of the Graph View. To do this navigate to the top left of the opened project, there should be a symbol with three circles in a triangle. This will open the Graph View in a Tab. I would recommend pinning this tab.
-* Next I would open up another tab by clicking the `+` icon on the top of the screen. I would then drag this tab into another monitor/area of your choice. Note: Obsidian can freak out when this happens and may move the pinned graph view as well.
+* Next I would open up another tab by clicking the `+` icon on the top of the screen. Next click on the Graph View icon again to have it load the Graph View. I would then drag this tab into another monitor/area of your choice. Note: Obsidian can freak out when this happens and may move the pinned graph view as well.
 
 
 
@@ -35,9 +35,9 @@ Input Graph:
 
 Establishing Connections:
 
-* To establish a connection in Obsidian you need to type the name of the Node, surrounded by `\[\[]]`. Example: \[\[Coconut]]
-* Please do not use any nodes/files with an `\_` (underscore) as the prefix. This is to denote the source image file and not the node itself.
-* Using the example above with Peanut, we would type in \[\[Coconut]] \[\[Diving]], I prefer to have them on separate lines. It will automatically update the Graph Views.
+* To establish a connection in Obsidian you need to type the name of the Node, surrounded by `[[]]`. Example: [[Coconut]]
+* Please do not use any nodes/files with an `_` (underscore) as the prefix. This is to denote the source image file and not the node itself.
+* Using the example above with Peanut, we would type in [[Coconut]] [[Diving]], I prefer to have them on separate lines. It will automatically update the Graph Views.
 
 
 
@@ -57,7 +57,7 @@ Stream View:
 
 Cleaning up:
 
-* To remove connections you simply need to go into the respective node and remove the connection strings (\[\[Node Name]]). You can click on the nodes with arrows being pointed to, to open the file and manage it. I would recommend doing this with the `Stream Graph` state as it's easier to view the connections.
+* To remove connections you simply need to go into the respective node and remove the connection strings ([[Node Name]]). You can click on the nodes with arrows being pointed to, to open the file and manage it. I would recommend doing this with the `Stream Graph` state as it's easier to view the connections.
 * At the bottom of each node you will see the `Linked Mentions` and see potential references to other nodes, you can click on these to go further and if you reach a dead end, there is a back button below the tab name.
 * Please be wary not to remove the references in the K. Rool Phases nodes when using the `Linked Mentions` tool.
 
