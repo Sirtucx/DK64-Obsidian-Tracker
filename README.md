@@ -22,6 +22,9 @@ How to use this project:
 * In order to use it on stream you will need to open two instances of the Graph View. To do this navigate to the top left of the opened project, there should be a symbol with three circles in a triangle. This will open the Graph View in a Tab. I would recommend pinning this tab.
 * Next I would open up another tab by clicking the `+` icon on the top of the screen. Next click on the Graph View icon again to have it load the Graph View. I would then drag this tab into another monitor/area of your choice. Note: Obsidian can freak out when this happens and may move the pinned graph view as well.
 
+Results:
+![Multi-Graph-View](./Screenshots/Graph View Tabs.png)
+
 
 
 Input Graph:
