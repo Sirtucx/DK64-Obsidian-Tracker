@@ -23,7 +23,7 @@ How to use this project:
 * Next I would open up another tab by clicking the `+` icon on the top of the screen. Next click on the Graph View icon again to have it load the Graph View. I would then drag this tab into another monitor/area of your choice. Note: Obsidian can freak out when this happens and may move the pinned graph view as well.
 
 Results:
-![Multi-Graph-View](./Screenshots/Graph View Tabs.png)
+![Multi-Graph-View](./Screenshots/GraphViewTabs.png?raw=true "Multi-Graph View")
 
 
 
