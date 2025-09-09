@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "fd3f04f448ae4c70",
+        "id": "7f46f489872123c9",
         "type": "tabs",
         "children": [
           {
-            "id": "2d4836bcc6f4d86d",
+            "id": "4d3efe8e5d8d12a3",
             "type": "leaf",
             "pinned": true,
             "state": {
@@ -138,8 +138,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "2d4836bcc6f4d86d",
+  "active": "4d3efe8e5d8d12a3",
   "lastOpenFiles": [
+    "Shared/Climbing.md",
+    "Assets/Shared Moves/_Climbing.png",
+    "Assets/Shared Moves/climb.png",
+    "Diddy/Peanut.md",
     "Chunky/Hunky.md",
     "Phases/Chunky Phase.md",
     "Shared/Camera.md",
@@ -165,8 +169,6 @@
     "Shared/Super Duper Simian Slam (Slam 3).md",
     "Tiny/Monkeyport.md",
     "Chunky/Punch.md",
-    "Shared/Homing Ammo.md",
-    "Shops/Cranky.md",
     "Assets/Misc/Sphere Zero.png",
     "Assets/Misc/_Medal.png",
     "Assets/Misc/bananamedal.png",
@@ -177,8 +179,6 @@
     "Assets/Misc/Start.webp",
     "Assets/Misc/_bean.png",
     "Assets/Misc/_Free Kongs.png",
-    "Assets/Chunky/_Chunky.png",
-    "Assets/Chunky/_Gorilla Gone.png",
     "Keys",
     "Phases",
     "Misc",
