@@ -14,7 +14,7 @@
       "focus": false,
       "shapes": false,
       "elements-stats": false,
-      "names": false,
+      "names": true,
       "icons": false,
       "arrows": true,
       "layers": false
@@ -33,7 +33,7 @@
       "focus": false,
       "shapes": false,
       "elements-stats": false,
-      "names": false,
+      "names": true,
       "icons": false,
       "arrows": true,
       "layers": false
@@ -229,64 +229,7 @@
         "link": "OR",
         "folder": "OR"
       },
-      "pinNodes": {
-        "Keys/Key 7.md": {
-          "x": -735.9528321887755,
-          "y": 224.2608187271917
-        },
-        "Keys/Key 8.md": {
-          "x": -729.5606603489,
-          "y": 742.0763749845023
-        },
-        "Misc/Sphere 0.md": {
-          "x": -91.94151932132729,
-          "y": -279.17097207852703
-        },
-        "Phases/Helm.md": {
-          "x": -729.5606603489,
-          "y": 432.02631969463096
-        },
-        "Keys/Key 5.md": {
-          "x": -740.746961068682,
-          "y": 62.843006437103895
-        },
-        "Diddy/Peanut.md": {
-          "x": -240.5083770751953,
-          "y": 327.3984069824219
-        },
-        "Keys/Key 1.md": {
-          "x": -735.9528321887755,
-          "y": -381.4555264009589
-        },
-        "Keys/Key 4.md": {
-          "x": -737.5508751487444,
-          "y": -87.38743272396755
-        },
-        "Keys/Key 3.md": {
-          "x": -735.9528321887755,
-          "y": -236.01967572375133
-        },
-        "Phases/Chunky Phase.md": {
-          "x": 403.45179826901744,
-          "y": 441.61549666235896
-        },
-        "Phases/DK Phase.md": {
-          "x": -487.9602703206286,
-          "y": 434.6456559171629
-        },
-        "Phases/Diddy Phase.md": {
-          "x": -166.75882960440867,
-          "y": 476.19808415481725
-        },
-        "Phases/Lanky Phase.md": {
-          "x": 74.54175521225397,
-          "y": 469.8054028874858
-        },
-        "Phases/Tiny Phase.md": {
-          "x": 346.2046652707485,
-          "y": 450.62735908549166
-        }
-      },
+      "pinNodes": {},
       "hiddenLegendRows": [
         "link"
       ],
@@ -355,6 +298,13 @@
               "a": 1,
               "rgb": 14701233
             }
+          },
+          {
+            "query": "tag:#Helm",
+            "color": {
+              "a": 1,
+              "rgb": 16734464
+            }
           }
         ],
         "search": "",
@@ -363,12 +313,12 @@
         "showOrphans": false,
         "showTags": false,
         "lineSizeMultiplier": 5,
-        "nodeSizeMultiplier": 5,
+        "nodeSizeMultiplier": 3.87708333333333,
         "showArrow": true,
-        "textFadeMultiplier": 3,
-        "centerStrength": 0.75,
-        "linkDistance": 101,
-        "linkStrength": 1,
+        "textFadeMultiplier": -3,
+        "centerStrength": 0.6875,
+        "linkDistance": 69,
+        "linkStrength": 0.692708333333333,
         "repelStrength": 20
       }
     },
@@ -641,7 +591,10 @@
       "hiddenLegendRows": [
         "link"
       ],
-      "collapsedLegendRows": [],
+      "collapsedLegendRows": [
+        "tag",
+        "tag"
+      ],
       "engineOptions": {
         "colorGroups": [
           {
@@ -711,7 +664,7 @@
     }
   ],
   "startingStateID": "f6cf51ca-d417-4a64-bef9-48f9ee4ac456",
-  "syncDefaultState": true,
+  "syncDefaultState": false,
   "openInNewTab": true,
   "customColorMaps": {},
   "imageProperties": [
@@ -828,27 +781,27 @@
   "flatArrows": true,
   "opaqueArrowsButKeepFading": false,
   "alwaysOpaqueArrows": true,
-  "arrowScale": 2,
-  "arrowFixedSize": true,
+  "arrowScale": 1,
+  "arrowFixedSize": false,
   "arrowColorBool": true,
-  "arrowColor": "#ffffff",
+  "arrowColor": "#00e1ff",
   "numberOfCharacters": null,
   "showOnlyFileName": false,
   "noExtension": false,
   "usePropertiesForName": [],
-  "addBackgroundToName": false,
+  "addBackgroundToName": true,
   "nameVerticalOffset": 0,
   "dynamicVerticalOffset": false,
-  "showNamesWhenNeighborHighlighted": false,
+  "showNamesWhenNeighborHighlighted": true,
   "iconProperties": [
     ""
   ],
   "usePluginForIcon": true,
   "usePluginForIconColor": true,
   "useParentIcon": false,
-  "horizontalLegend": true,
+  "horizontalLegend": false,
   "useRadialMenu": false,
-  "collapseState": false,
+  "collapseState": true,
   "collapseLegend": false,
   "resetAfterChanges": false,
   "collapsedSettings": {
@@ -865,11 +818,11 @@
     "elements-stats": true,
     "names": true,
     "zoom": true,
-    "display": true,
+    "display": false,
     "performances": true,
     "beta": true,
     "layers": true,
-    "local-graph": false,
+    "local-graph": true,
     "filter": true,
     "inputs": true
   },
