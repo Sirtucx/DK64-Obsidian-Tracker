@@ -9,7 +9,9 @@ This repository contains my Obsidian project that allows me to show connections 
 Setting up the project:
 
 1. Download Obsidian (https://obsidian.md/download)
-2. Once downloaded, select Open folder as Vault
+2. Download the project from Github (see https://github.com/Sirtucx/DK64-Obsidian-Tracker/releases)
+3. Once downloaded, upon opening Obsidian, select Open folder as Vault. Do not create a new vault.
+4. Select the root folder `DK64 Randomizer`. This should be right next to the README.txt
 
 
 How to use this project:
