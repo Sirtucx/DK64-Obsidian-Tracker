@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "7f46f489872123c9",
+        "id": "9484a24d661574a6",
         "type": "tabs",
         "children": [
           {
-            "id": "4d3efe8e5d8d12a3",
+            "id": "4402bf392d38ee03",
             "type": "leaf",
             "pinned": true,
             "state": {
@@ -19,7 +19,8 @@
               "title": "Graph view"
             }
           }
-        ]
+        ],
+        "stacked": true
       }
     ],
     "direction": "vertical"
@@ -51,7 +52,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "strong",
+                "query": "tag:DK-Phase",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -73,11 +74,11 @@
     "type": "split",
     "children": [
       {
-        "id": "9df223cdd91d0ff6",
+        "id": "8f13e72b91fc3e63",
         "type": "tabs",
         "children": [
           {
-            "id": "a1851300f2615aa5",
+            "id": "876863fbd3517b4d",
             "type": "leaf",
             "state": {
               "type": "backlink",
@@ -95,36 +96,33 @@
             }
           },
           {
-            "id": "f4674ae4e418a3c6",
+            "id": "63e3e2665644063f",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Key 8.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Key 8"
+              "title": "Outgoing links"
             }
           },
           {
-            "id": "bace8883f8c9688a",
+            "id": "fbacc34b94ccaefb",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "Lanky/Trombone.md",
                 "followCursor": false,
-                "showSearch": true,
+                "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Trombone"
+              "title": "Outline"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "horizontal",
@@ -134,58 +132,93 @@
   "left-ribbon": {
     "hiddenItems": {
       "bases:Create new base": false,
-      "graph:Open graph view": false,
-      "command-palette:Open command palette": false
+      "graph:Open graph view": false
     }
   },
-  "active": "4d3efe8e5d8d12a3",
+  "floating": {
+    "id": "e163ce3bd71b6c0c",
+    "type": "floating",
+    "children": [
+      {
+        "id": "998fc29c7d6e5afa",
+        "type": "window",
+        "children": [
+          {
+            "id": "109eeee9d58ab9b7",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "8279667c1f733bf0",
+                "type": "leaf",
+                "pinned": true,
+                "state": {
+                  "type": "graph",
+                  "state": {},
+                  "pinned": true,
+                  "icon": "lucide-git-fork",
+                  "title": "Graph view"
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "vertical",
+        "x": -1264,
+        "y": 415,
+        "width": 700,
+        "height": 1032,
+        "maximize": true,
+        "zoom": 0
+      }
+    ]
+  },
+  "active": "c1c59ed7fbb82d38",
   "lastOpenFiles": [
-    "Shared/Climbing.md",
-    "Assets/Shared Moves/_Climbing.png",
-    "Assets/Shared Moves/climb.png",
-    "Diddy/Peanut.md",
-    "Chunky/Hunky.md",
-    "Phases/Chunky Phase.md",
-    "Shared/Camera.md",
-    "DK64-Obsidian-Tracker/README.md",
-    "DK64-Obsidian-Tracker",
-    "DK/Strong.md",
-    "Misc/Sphere 0.md",
-    "Tiny/Sax.md",
-    "Diddy/Guitar.md",
-    "Lanky/Grape.md",
-    "Tiny/Feather.md",
-    "Shared/Barrel Throwing.md",
-    "Lanky/Balloon.md",
-    "Tiny/Twirl.md",
+    "Keys/Key 1.md",
+    "Kongs/Tiny.md",
+    "Kongs/Chunky.md",
+    "Kongs/Lanky.md",
+    "Kongs/Diddy.md",
+    "Kongs/DK.md",
+    "Assets/Kongs/_Tiny.png.0.pdnSave",
+    "Assets/Kongs/_Lanky.png.0.pdnSave",
+    "Assets/Kongs/_Chunky.png.0.pdnSave",
+    "Assets/Kongs/_Diddy.png.0.pdnSave",
+    "Assets/Kongs/_DK.png.0.pdnSave",
+    "Assets/Kongs/_Tiny.png",
+    "Assets/Kongs/_Lanky.png",
+    "Assets/Kongs/_DK.png",
+    "Assets/Kongs/_Diddy.png",
+    "Assets/Kongs/_Chunky.png",
+    "Assets/Kongs",
+    "Kongs",
     "Lanky/OStand.md",
-    "Shared/Vine Swinging.md",
-    "DK/Grab.md",
-    "Diddy/Spring.md",
-    "Diddy/Rocket.md",
-    "Tiny/Mini.md",
-    "Shared/Super Simian Slam (Slam 2).md",
-    "Chunky/Gone.md",
-    "Shared/Super Duper Simian Slam (Slam 3).md",
     "Tiny/Monkeyport.md",
+    "Lanky/Trombone.md",
+    "Misc/Banana Medal.md",
+    "Keys/Key 7.md",
+    "Chunky/Gone.md",
+    "DK/Grab.md",
+    "Diddy/Peanut.md",
+    "Lanky/Grape.md",
+    "Shared/Orange Throwing.md",
+    "Misc/Bean.md",
+    "Shared/Homing Ammo.md",
     "Chunky/Punch.md",
-    "Assets/Misc/Sphere Zero.png",
-    "Assets/Misc/_Medal.png",
-    "Assets/Misc/bananamedal.png",
-    "Assets/Shops/_Candy.png",
-    "Assets/Tiny/_Mini Monkey.png",
+    "Tiny/Feather.md",
+    "Shared/Shockwave.md",
+    "Chunky/Triangle.md",
+    "Tiny/Twirl.md",
+    "Shared/Super Duper Simian Slam (Slam 3).md",
+    "Diddy/Rocket.md",
+    "Assets/Shared Moves/_Climbing.png",
+    "Assets/Phases/_Helm.png",
+    "Assets/Phases/krool.png",
+    "Assets/Phases/FinalChunkyIcon.png",
+    "Assets/Phases/_Final Chunky - Copy.png",
+    "Phases.zip",
+    "DK64-Obsidian-Tracker",
     "Assets/Tiny/sax_base64.txt",
-    "Assets/Tiny/mini_base64.txt",
-    "Assets/Misc/Start.webp",
-    "Assets/Misc/_bean.png",
-    "Assets/Misc/_Free Kongs.png",
-    "Keys",
-    "Phases",
-    "Misc",
-    "Tiny",
-    "Shops",
-    "Shared",
-    "Lanky",
     "Untitled.canvas",
     "Test.canvas",
     "Mind Map.canvas"
