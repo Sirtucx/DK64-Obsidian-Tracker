@@ -5,18 +5,19 @@
       "tags": true,
       "properties": true,
       "property-key": true,
-      "links": false,
-      "linksSameColorAsNode": false,
+      "links": true,
+      "linksSameColorAsNode": true,
       "folders": false,
       "imagesFromProperty": true,
       "imagesFromEmbeds": true,
       "imagesForAttachments": false,
-      "focus": true,
+      "focus": false,
       "shapes": false,
-      "elements-stats": true,
-      "names": false,
+      "elements-stats": false,
+      "names": true,
       "icons": false,
-      "arrows": true
+      "arrows": true,
+      "layers": false
     },
     "localgraph": {
       "auto-enabled": true,
@@ -32,22 +33,34 @@
       "focus": false,
       "shapes": false,
       "elements-stats": false,
-      "names": false,
+      "names": true,
       "icons": false,
-      "arrows": false
+      "arrows": true,
+      "layers": false
     }
   },
   "interactiveSettings": {
     "tag": {
       "colormap": "hsv",
       "colors": [],
-      "unselected": [],
+      "unselected": [
+        "DK",
+        "Diddy",
+        "Chunky",
+        "Tiny",
+        "Weapon",
+        "Shops",
+        "Instrument",
+        "Lanky",
+        "Shared",
+        "Snide"
+      ],
       "excludeRegex": {
         "regex": "",
         "flags": ""
       },
-      "noneType": "none",
-      "showOnGraph": true,
+      "noneType": "notags",
+      "showOnGraph": false,
       "enableByDefault": true
     },
     "link": {
@@ -78,72 +91,30 @@
   "additionalProperties": {},
   "backupGraphOptions": {
     "collapse-filter": false,
+    "search": "",
     "showTags": false,
     "showAttachments": false,
     "hideUnresolved": false,
     "showOrphans": true,
     "collapse-color-groups": false,
-    "colorGroups": [
-      {
-        "query": "tag:#Keys",
-        "color": {
-          "a": 1,
-          "rgb": 14725458
-        }
-      },
-      {
-        "query": "tag:#DK",
-        "color": {
-          "a": 1,
-          "rgb": 10644998
-        }
-      },
-      {
-        "query": "tag:#Diddy",
-        "color": {
-          "a": 1,
-          "rgb": 14701138
-        }
-      },
-      {
-        "query": "tag:#Lanky",
-        "color": {
-          "a": 1,
-          "rgb": 2776774
-        }
-      },
-      {
-        "query": "tag:#Tiny",
-        "color": {
-          "a": 1,
-          "rgb": 8994491
-        }
-      },
-      {
-        "query": "tag:#Chunky",
-        "color": {
-          "a": 1,
-          "rgb": 3735392
-        }
-      }
-    ],
+    "colorGroups": [],
     "collapse-display": true,
     "showArrow": false,
-    "textFadeMultiplier": 3,
-    "nodeSizeMultiplier": 5,
-    "lineSizeMultiplier": 0.1,
+    "textFadeMultiplier": 0,
+    "nodeSizeMultiplier": 1,
+    "lineSizeMultiplier": 1,
     "collapse-forces": false,
-    "centerStrength": 0.697916666666667,
-    "repelStrength": 20,
+    "centerStrength": 0.518713248970312,
+    "repelStrength": 10,
     "linkStrength": 1,
-    "linkDistance": 270,
-    "scale": 0.0078125,
+    "linkDistance": 250,
+    "scale": 0.3213363860503592,
     "close": true
   },
   "states": [
     {
       "id": "default-vault",
-      "name": "Vault (default)",
+      "name": "Default state",
       "engineOptions": {
         "colorGroups": [
           {
@@ -187,18 +158,40 @@
               "a": 1,
               "rgb": 3735392
             }
+          },
+          {
+            "query": "tag:#Shared",
+            "color": {
+              "a": 1,
+              "rgb": 11118917
+            }
+          },
+          {
+            "query": "tag:#Shops",
+            "color": {
+              "a": 1,
+              "rgb": 5427424
+            }
+          },
+          {
+            "query": "tag:#Sphere0",
+            "color": {
+              "a": 1,
+              "rgb": 14701233
+            }
           }
         ],
+        "search": "",
         "hideUnresolved": false,
         "showAttachments": false,
-        "showOrphans": true,
+        "showOrphans": false,
         "showTags": false,
-        "lineSizeMultiplier": 0.1,
+        "lineSizeMultiplier": 5,
         "nodeSizeMultiplier": 5,
-        "showArrow": false,
+        "showArrow": true,
         "textFadeMultiplier": 3,
-        "centerStrength": 0.697916666666667,
-        "linkDistance": 270,
+        "centerStrength": 0.75,
+        "linkDistance": 101,
         "linkStrength": 1,
         "repelStrength": 20
       },
@@ -236,13 +229,10 @@
         "link": "OR",
         "folder": "OR"
       },
-      "pinNodes": {
-        "Misc/Sphere 0.md": {
-          "x": 79.57246629461292,
-          "y": -728.8778839989272
-        }
-      },
-      "hiddenLegendRows": [],
+      "pinNodes": {},
+      "hiddenLegendRows": [
+        "link"
+      ],
       "collapsedLegendRows": [],
       "engineOptions": {
         "colorGroups": [
@@ -287,19 +277,48 @@
               "a": 1,
               "rgb": 3735392
             }
+          },
+          {
+            "query": "tag:#Shared",
+            "color": {
+              "a": 1,
+              "rgb": 11118917
+            }
+          },
+          {
+            "query": "tag:#Shops",
+            "color": {
+              "a": 1,
+              "rgb": 5427424
+            }
+          },
+          {
+            "query": "tag:#Sphere0",
+            "color": {
+              "a": 1,
+              "rgb": 14701233
+            }
+          },
+          {
+            "query": "tag:#Helm",
+            "color": {
+              "a": 1,
+              "rgb": 16734464
+            }
           }
         ],
+        "search": "",
         "hideUnresolved": false,
         "showAttachments": false,
         "showOrphans": false,
         "showTags": false,
         "lineSizeMultiplier": 5,
-        "nodeSizeMultiplier": 5,
+        "nodeSizeMultiplier": 3.87708333333333,
         "showArrow": true,
-        "textFadeMultiplier": 3,
-        "centerStrength": 0.697916666666667,
-        "linkDistance": 270,
-        "linkStrength": 1,
+        "textFadeMultiplier": -3,
+        "centerStrength": 0.6875,
+        "linkDistance": 69,
+        "linkStrength": 0.692708333333333,
         "repelStrength": 20
       }
     },
@@ -311,13 +330,15 @@
           "Chunky-Phase",
           "DK-Phase",
           "Diddy-Phase",
+          "Free-Kongs",
           "Lanky-Phase",
-          "Shops",
-          "Snide",
+          "Sphere0",
           "Tiny-Phase",
           "ignore"
         ],
-        "link": [],
+        "link": [
+          "none"
+        ],
         "folder": []
       },
       "logicTypes": {
@@ -326,14 +347,6 @@
         "folder": "OR"
       },
       "pinNodes": {
-        "Misc/Sphere 0.md": {
-          "x": -657.9153504377316,
-          "y": 73.32317924323843
-        },
-        "Shared/Camera.md": {
-          "x": -419.4406864606592,
-          "y": 118.56125383010715
-        },
         "Chunky/Gone.md": {
           "x": 201.89249075553244,
           "y": -4.636488874591464
@@ -363,8 +376,8 @@
           "y": -664.2930171351272
         },
         "DK/Coconut.md": {
-          "x": -419.7915123198002,
-          "y": -658.5918608717925
+          "x": -406.758643960944,
+          "y": -676.7200072870892
         },
         "DK/Grab.md": {
           "x": -100.49636698547647,
@@ -387,12 +400,36 @@
           "y": -506.59528268681345
         },
         "Diddy/Rocket.md": {
-          "x": 60.29154548644988,
-          "y": -509.22156677255384
+          "x": 74.8024994346531,
+          "y": -510.2064184067364
         },
         "Diddy/Spring.md": {
           "x": 221.07945795837622,
           "y": -514.9227230358838
+        },
+        "Keys/Key 1.md": {
+          "x": 654.6350571338605,
+          "y": -574.5480170623808
+        },
+        "Keys/Key 3.md": {
+          "x": 659.2565630208121,
+          "y": -438.97553661675454
+        },
+        "Keys/Key 4.md": {
+          "x": 672.9032318972859,
+          "y": -297.46987565969744
+        },
+        "Keys/Key 5.md": {
+          "x": 668.4867843339152,
+          "y": -163.24750470711285
+        },
+        "Keys/Key 7.md": {
+          "x": 669.8053873786444,
+          "y": -28.681670952168133
+        },
+        "Keys/Key 8.md": {
+          "x": 667.1681812891861,
+          "y": 108.52270856267751
         },
         "Lanky/Balloon.md": {
           "x": 203.2359405073969,
@@ -414,45 +451,73 @@
           "x": -241.44592735974436,
           "y": -335.29301227090446
         },
+        "Misc/Banana Medal.md": {
+          "x": -656.5719006858671,
+          "y": -109.47880117098339
+        },
         "Misc/Bean.md": {
           "x": -1126.1319595422915,
           "y": 331.4798252743018
         },
+        "Misc/Free Kongs.md": {
+          "x": 672.4425934681026,
+          "y": 243.08854231762234
+        },
+        "Phases/Helm.md": {
+          "x": -732.1504092188245,
+          "y": 541.4499387763994
+        },
         "Shared/Barrel Throwing.md": {
-          "x": -417.02925972371224,
-          "y": 231.8509976055742
+          "x": -268.58951993529445,
+          "y": 360.5004552436849
+        },
+        "Shared/Camera.md": {
+          "x": -455.5369104789727,
+          "y": 171.2575992444572
         },
         "Shared/Diving.md": {
-          "x": -320.20996710739564,
-          "y": 117.74796470464253
+          "x": -442.3406240876541,
+          "y": 349.497963615823
         },
         "Shared/Homing Ammo.md": {
-          "x": -216.91241499375258,
-          "y": 115.30809732824878
+          "x": -281.7858063266128,
+          "y": 173.45809757002962
         },
         "Shared/Orange Throwing.md": {
-          "x": -109.54803011972979,
-          "y": 117.74796470464253
+          "x": -119.03160750035181,
+          "y": 180.0595925467469
         },
         "Shared/Shockwave.md": {
-          "x": -16.010876630997814,
-          "y": 116.9346755791779
+          "x": 72.31454517376596,
+          "y": 364.90145189482996
         },
         "Shared/Sniper Scope.md": {
-          "x": 85.6599423784935,
-          "y": 116.9346755791779
+          "x": 65.71640197810689,
+          "y": 188.8615858490366
         },
         "Shared/Super Duper Simian Slam (Slam 3).md": {
-          "x": -289.8101184268654,
-          "y": 367.6886613962182
+          "x": -261.99137673963514,
+          "y": 538.7408196150507
         },
         "Shared/Super Simian Slam (Slam 2).md": {
-          "x": -385.1950508092432,
-          "y": 366.3445291872903
+          "x": -442.3406240876541,
+          "y": 536.5403212894782
         },
         "Shared/Vine Swinging.md": {
-          "x": 209.29165829403473,
-          "y": 116.1213864537134
+          "x": -108.03470217425297,
+          "y": 356.09945859254026
+        },
+        "Shops/Candy.md": {
+          "x": -871.5238609841831,
+          "y": 347.52614986457115
+        },
+        "Shops/Cranky.md": {
+          "x": -997.8081376594438,
+          "y": 343.4937532377868
+        },
+        "Shops/Funky.md": {
+          "x": -739.8657853014645,
+          "y": 340.8054888199306
         },
         "Tiny/Feather.md": {
           "x": -418.781294605855,
@@ -474,97 +539,81 @@
           "x": -81.57540688787185,
           "y": -167.2764861548918
         },
-        "Keys/Key 1.md": {
-          "x": 654.6350571338605,
-          "y": -574.5480170623808
+        "Kongs/DK.md": {
+          "x": 409.8401488394361,
+          "y": -679.8018075835548
+        },
+        "Kongs/Diddy.md": {
+          "x": 406.758643960944,
+          "y": -507.22099098150375
+        },
+        "Kongs/Chunky.md": {
+          "x": 412.92165371792817,
+          "y": 32.09406089990807
+        },
+        "Kongs/Tiny.md": {
+          "x": 394.4326244469762,
+          "y": -125.0777542198175
+        },
+        "Kongs/Lanky.md": {
+          "x": 416.00315859642,
+          "y": -316.1493726006611
         },
         "Keys/Key 2.md": {
-          "x": 827.0962404535919,
-          "y": -454.95791790991564
-        },
-        "Keys/Key 3.md": {
-          "x": 659.2565630208121,
-          "y": -438.97553661675454
-        },
-        "Keys/Key 4.md": {
-          "x": 663.212372154999,
-          "y": -295.1747927021567
-        },
-        "Keys/Key 5.md": {
-          "x": 668.4867843339152,
-          "y": -163.24750470711285
+          "x": 938.8289335221577,
+          "y": -521.8634380703013
         },
         "Keys/Key 6.md": {
-          "x": 836.6765119618938,
-          "y": -169.00129564924111
-        },
-        "Keys/Key 7.md": {
-          "x": 669.8053873786444,
-          "y": -28.681670952168133
-        },
-        "Keys/Key 8.md": {
-          "x": 667.1681812891861,
-          "y": 108.52270856267751
-        },
-        "Misc/Banana Medal.md": {
-          "x": -656.5719006858671,
-          "y": -109.47880117098339
-        },
-        "Misc/Free Kongs.md": {
-          "x": 672.4425934681026,
-          "y": 243.08854231762234
+          "x": 932.1070944149722,
+          "y": -100.4142046778644
         },
         "Misc/N64 Coin.md": {
-          "x": -148.4947414751357,
-          "y": 372.55901131371263
+          "x": -992.287171682394,
+          "y": 538.571807775015
         },
         "Misc/Rareware Coin.md": {
-          "x": -6.387380768659796,
-          "y": 370.9614882843233
+          "x": -1135.686405969012,
+          "y": 531.8465540506679
+        },
+        "Misc/Sphere 0.md": {
+          "x": -657.9153504377316,
+          "y": 73.32317924323843
         },
         "Phases/Chunky Phase.md": {
-          "x": -200,
-          "y": 37.5
+          "x": -532.3344874589086,
+          "y": 850.381630116502
         },
         "Phases/DK Phase.md": {
-          "x": -100,
-          "y": 37.5
+          "x": -1108.1064639594451,
+          "y": 836.9326543485622
         },
         "Phases/Diddy Phase.md": {
-          "x": 0,
-          "y": 37.5
+          "x": -988.5771814618201,
+          "y": 846.2999201393494
         },
         "Phases/Lanky Phase.md": {
-          "x": 100,
-          "y": 37.5
+          "x": -830.3020861926493,
+          "y": 841.4156462712087
         },
         "Phases/Tiny Phase.md": {
-          "x": 200,
-          "y": 37.5
+          "x": -682.438465768387,
+          "y": 843.6571422325319
         },
-        "Shops/Candy.md": {
-          "x": -871.5238609841831,
-          "y": 347.52614986457115
-        },
-        "Shops/Cranky.md": {
-          "x": -997.8081376594438,
-          "y": 343.4937532377868
-        },
-        "Shops/Funky.md": {
-          "x": -739.8657853014645,
-          "y": 340.8054888199306
+        "Shared/Climbing.md": {
+          "x": 242.51626132303045,
+          "y": 371.07684442626555
         },
         "Shops/Snide.md": {
           "x": -601.9609262014185,
           "y": 354.9862579904308
-        },
-        "Shared/Climbing.md": {
-          "x": -308.8228353783327,
-          "y": 234.0483096460797
         }
       },
-      "hiddenLegendRows": [],
-      "collapsedLegendRows": [],
+      "hiddenLegendRows": [
+        "link"
+      ],
+      "collapsedLegendRows": [
+        "tag"
+      ],
       "engineOptions": {
         "colorGroups": [
           {
@@ -608,8 +657,16 @@
               "a": 1,
               "rgb": 3735392
             }
+          },
+          {
+            "query": "tag:#Shared",
+            "color": {
+              "a": 1,
+              "rgb": 11118917
+            }
           }
         ],
+        "search": "",
         "hideUnresolved": false,
         "showAttachments": false,
         "showOrphans": true,
@@ -625,8 +682,8 @@
       }
     }
   ],
-  "startingStateID": "531b781e-a62a-4641-a171-efd9de7794ca",
-  "syncDefaultState": true,
+  "startingStateID": "f6cf51ca-d417-4a64-bef9-48f9ee4ac456",
+  "syncDefaultState": false,
   "openInNewTab": true,
   "customColorMaps": {},
   "imageProperties": [
@@ -638,13 +695,12 @@
   "nodesSizeProperties": [
     ""
   ],
-  "nodesSizeFunction": "default",
-  "nodesColorColormap": "YlOrRd",
-  "nodesColorFunction": "default",
-  "invertNodeStats": false,
-  "linksSizeFunction": "default",
-  "linksColorColormap": "YlOrRd",
-  "linksColorFunction": "default",
+  "nodesSizeFunction": "constant",
+  "nodesColorColormap": "Wistia_r",
+  "nodesColorFunction": "forwardlinksCount",
+  "linksSizeFunction": "Ocurences",
+  "linksColorColormap": "YlOrRd_r",
+  "linksColorFunction": "Ocurences",
   "zoomFactor": 2,
   "maxNodes": 100,
   "delay": 500,
@@ -719,11 +775,11 @@
     }
   },
   "fadeOnDisable": false,
-  "focusScaleFactor": 1.8,
-  "borderUnresolved": 1,
+  "focusScaleFactor": 1,
+  "borderUnresolved": 0.99,
   "spreadArcs": true,
-  "weightArcs": false,
-  "animateDotsOnLinks": false,
+  "weightArcs": true,
+  "animateDotsOnLinks": true,
   "animationSpeedForDots": 1,
   "interactivesBrightness": {
     "light": 1,
@@ -735,8 +791,8 @@
   "excludedSourcesFolder": [],
   "excludedTargetsFolder": [],
   "curvedLinks": false,
-  "curvedFactor": 1,
-  "outlineLinks": false,
+  "curvedFactor": 0,
+  "outlineLinks": true,
   "displayLinkTypeLabel": false,
   "colorLinkTypeLabel": false,
   "folderShowFullPath": true,
@@ -744,25 +800,25 @@
   "flatArrows": true,
   "opaqueArrowsButKeepFading": false,
   "alwaysOpaqueArrows": true,
-  "arrowScale": 1.1,
+  "arrowScale": 1,
   "arrowFixedSize": false,
   "arrowColorBool": true,
-  "arrowColor": "#00ff7b",
+  "arrowColor": "#00e1ff",
   "numberOfCharacters": null,
   "showOnlyFileName": false,
   "noExtension": false,
   "usePropertiesForName": [],
-  "addBackgroundToName": false,
+  "addBackgroundToName": true,
   "nameVerticalOffset": 0,
   "dynamicVerticalOffset": false,
-  "showNamesWhenNeighborHighlighted": false,
+  "showNamesWhenNeighborHighlighted": true,
   "iconProperties": [
     ""
   ],
   "usePluginForIcon": true,
   "usePluginForIconColor": true,
   "useParentIcon": false,
-  "horizontalLegend": true,
+  "horizontalLegend": false,
   "useRadialMenu": false,
   "collapseState": false,
   "collapseLegend": false,
@@ -774,16 +830,20 @@
     "links": true,
     "arrows": false,
     "folders": true,
-    "images": false,
+    "images": true,
     "icons": true,
     "focus": true,
     "shapes": true,
     "elements-stats": true,
     "names": true,
     "zoom": true,
-    "display": true,
+    "display": false,
     "performances": true,
-    "beta": true
+    "beta": true,
+    "layers": true,
+    "local-graph": true,
+    "filter": true,
+    "inputs": true
   },
   "exportSVGOptions": {
     "asImage": true,
@@ -817,5 +877,53 @@
         }
       ]
     }
-  }
+  },
+  "canonicalizePropertiesWithDataview": true,
+  "saveConfigsWithState": false,
+  "nodesSizeRange": {
+    "min": 0.5,
+    "max": 1.5
+  },
+  "graphStatsDirection": "normal",
+  "recomputeStatsOnGraphChange": true,
+  "highlightOpenNodes": false,
+  "highlightSearchResults": false,
+  "colorBasedOnDepth": true,
+  "depthColormap": "ocean",
+  "currentNode": {
+    "useColor": true,
+    "color": "#000000",
+    "size": 100,
+    "shape": "star5"
+  },
+  "fadeInElements": true,
+  "externalLinks": "none",
+  "externalLinksProperties": [
+    "url"
+  ],
+  "externalLinkOpenMode": "note",
+  "showPinIcon": false,
+  "noLineHighlight": false,
+  "ellipsis": "…",
+  "backgroundOpacityWithIcon": 0,
+  "useIconColorForBackgroud": true,
+  "borderWidthWithIcon": 0,
+  "layerProperties": [
+    "layer"
+  ],
+  "numberOfActiveLayers": 4,
+  "layersOrder": "ASC",
+  "displayLabelsInUI": true,
+  "nodesWithoutLayerOpacity": 0,
+  "useLayerCustomOpacity": true,
+  "layersCustomOpacity": {},
+  "layersLevels": {},
+  "defaultLevelForLayers": 0,
+  "radialMenuModifier": "Alt",
+  "pinNodeModifier": "Alt",
+  "useLeftClickToSelect": true,
+  "selectNodeModifier": "Shift",
+  "filterAbstractFiles": [],
+  "ignoreInlineLinks": false,
+  "selectionMode": "replace"
 }
