@@ -1,5 +1,7 @@
 ---
 image: Assets/Shared Moves/_Camera.png
+tags:
+  - Shared
 ---
 
 
@@ -19,4 +21,4 @@ image: Assets/Shared Moves/_Camera.png
 
 
 ------------------------------------------------------------------------
-[[Sphere 0]]
+[[Start]]
