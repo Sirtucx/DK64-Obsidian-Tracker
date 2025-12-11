@@ -3,7 +3,7 @@
     "graph": {
       "auto-enabled": true,
       "tags": true,
-      "properties": true,
+      "properties": false,
       "property-key": true,
       "links": true,
       "linksSameColorAsNode": true,
@@ -22,10 +22,10 @@
     "localgraph": {
       "auto-enabled": true,
       "tags": true,
-      "properties": true,
+      "properties": false,
       "property-key": false,
-      "links": false,
-      "linksSameColorAsNode": false,
+      "links": true,
+      "linksSameColorAsNode": true,
       "folders": false,
       "imagesFromProperty": true,
       "imagesFromEmbeds": true,
@@ -53,7 +53,15 @@
         "Instrument",
         "Lanky",
         "Shared",
-        "Snide"
+        "Snide",
+        "Keys",
+        "Kongs",
+        "Free-Kongs",
+        "Medal",
+        "Candy",
+        "Sphere0",
+        "Funky",
+        "Cranky"
       ],
       "excludeRegex": {
         "regex": "",
@@ -233,7 +241,9 @@
       "hiddenLegendRows": [
         "link"
       ],
-      "collapsedLegendRows": [],
+      "collapsedLegendRows": [
+        "tag"
+      ],
       "engineOptions": {
         "colorGroups": [
           {
@@ -330,9 +340,7 @@
           "Chunky-Phase",
           "DK-Phase",
           "Diddy-Phase",
-          "Free-Kongs",
           "Lanky-Phase",
-          "Sphere0",
           "Tiny-Phase",
           "ignore"
         ],
@@ -347,10 +355,6 @@
         "folder": "OR"
       },
       "pinNodes": {
-        "Chunky/Gone.md": {
-          "x": 201.89249075553244,
-          "y": -4.636488874591464
-        },
         "Chunky/Hunky.md": {
           "x": 74.26476432840741,
           "y": 0.7400399611209423
@@ -363,29 +367,73 @@
           "x": -89.63610539905858,
           "y": 4.77243658790519
         },
-        "Chunky/Triangle.md": {
-          "x": -256.2238746302536,
-          "y": -4.636488874591464
-        },
-        "DK/Blast.md": {
-          "x": 207.39538030119093,
-          "y": -672.2746359037892
-        },
-        "DK/Bongos.md": {
-          "x": -251.02122121451384,
-          "y": -664.2930171351272
-        },
-        "DK/Coconut.md": {
-          "x": -406.758643960944,
-          "y": -676.7200072870892
-        },
-        "DK/Grab.md": {
-          "x": -100.49636698547647,
-          "y": -665.4332483877932
-        },
         "DK/Strong.md": {
           "x": 53.44950665785723,
           "y": -675.6953296617871
+        },
+        "Diddy/Spring.md": {
+          "x": 221.07945795837622,
+          "y": -514.9227230358838
+        },
+        "Keys/Key 8.md": {
+          "x": 667.1681812891861,
+          "y": 108.52270856267751
+        },
+        "Kongs/Lanky.md": {
+          "x": 416.0322898559531,
+          "y": -318.6550658037022
+        },
+        "Kongs/Tiny.md": {
+          "x": 431.4398142484132,
+          "y": -149.15604949811586
+        },
+        "Misc/Banana Medal.md": {
+          "x": -656.5719006858671,
+          "y": -109.47880117098339
+        },
+        "Misc/Bean.md": {
+          "x": -1126.1319595422915,
+          "y": 331.4798252743018
+        },
+        "Misc/Free Kongs.md": {
+          "x": 672.4425934681026,
+          "y": 243.08854231762234
+        },
+        "Misc/Sphere 0.md": {
+          "x": -657.9153504377316,
+          "y": 73.32317924323843
+        },
+        "Shared/Camera.md": {
+          "x": -455.5369104789727,
+          "y": 171.2575992444572
+        },
+        "Shared/Sniper Scope.md": {
+          "x": 65.71640197810689,
+          "y": 188.8615858490366
+        },
+        "Shared/Super Duper Simian Slam (Slam 3).md": {
+          "x": -261.99137673963514,
+          "y": 538.7408196150507
+        },
+        "Shared/Super Simian Slam (Slam 2).md": {
+          "x": -442.3406240876541,
+          "y": 536.5403212894782
+        },
+        "Shops/Candy.md": {
+          "x": -871.5238609841831,
+          "y": 347.52614986457115
+        },
+        "Tiny/Sax.md": {
+          "x": -240.1024776078799,
+          "y": -159.21169290132315
+        },
+        "Chunky/Gone.md": {
+          "x": 201.89249075553244,
+          "y": -4.636488874591464
+        },
+        "Chunky/Triangle.md": {
+          "x": -256.2238746302536,
+          "y": -4.636488874591464
         },
         "Diddy/Charge.md": {
           "x": -92.51398835211853,
@@ -403,9 +451,25 @@
           "x": 74.8024994346531,
           "y": -510.2064184067364
         },
-        "Diddy/Spring.md": {
-          "x": 221.07945795837622,
-          "y": -514.9227230358838
+        "DK/Blast.md": {
+          "x": 207.39538030119093,
+          "y": -672.2746359037892
+        },
+        "DK/Bongos.md": {
+          "x": -251.02122121451384,
+          "y": -664.2930171351272
+        },
+        "DK/Coconut.md": {
+          "x": -406.758643960944,
+          "y": -676.7200072870892
+        },
+        "DK/Grab.md": {
+          "x": -100.49636698547647,
+          "y": -665.4332483877932
+        },
+        "Keys/Key 1.md": {
+          "x": 662.5526801353132,
+          "y": -602.180693078501
         },
         "Keys/Key 3.md": {
           "x": 659.2565630208121,
@@ -423,9 +487,17 @@
           "x": 669.8053873786444,
           "y": -28.681670952168133
         },
-        "Keys/Key 8.md": {
-          "x": 667.1681812891861,
-          "y": 108.52270856267751
+        "Kongs/Chunky.md": {
+          "x": 428.35830936992113,
+          "y": 29.58836769686559
+        },
+        "Kongs/Diddy.md": {
+          "x": 403.70627034198503,
+          "y": -509.72668418454487
+        },
+        "Kongs/DK.md": {
+          "x": 400.5977704873342,
+          "y": -682.8841868741051
         },
         "Lanky/Balloon.md": {
           "x": 203.2359405073969,
@@ -447,18 +519,6 @@
           "x": -241.44592735974436,
           "y": -335.29301227090446
         },
-        "Misc/Banana Medal.md": {
-          "x": -656.5719006858671,
-          "y": -109.47880117098339
-        },
-        "Misc/Bean.md": {
-          "x": -1126.1319595422915,
-          "y": 331.4798252743018
-        },
-        "Misc/Free Kongs.md": {
-          "x": 672.4425934681026,
-          "y": 243.08854231762234
-        },
         "Phases/Helm.md": {
           "x": -732.1504092188245,
           "y": 541.4499387763994
@@ -466,10 +526,6 @@
         "Shared/Barrel Throwing.md": {
           "x": -268.58951993529445,
           "y": 360.5004552436849
-        },
-        "Shared/Camera.md": {
-          "x": -455.5369104789727,
-          "y": 171.2575992444572
         },
         "Shared/Diving.md": {
           "x": -442.3406240876541,
@@ -487,25 +543,9 @@
           "x": 72.31454517376596,
           "y": 364.90145189482996
         },
-        "Shared/Sniper Scope.md": {
-          "x": 65.71640197810689,
-          "y": 188.8615858490366
-        },
-        "Shared/Super Duper Simian Slam (Slam 3).md": {
-          "x": -261.99137673963514,
-          "y": 538.7408196150507
-        },
-        "Shared/Super Simian Slam (Slam 2).md": {
-          "x": -442.3406240876541,
-          "y": 536.5403212894782
-        },
         "Shared/Vine Swinging.md": {
           "x": -108.03470217425297,
           "y": 356.09945859254026
-        },
-        "Shops/Candy.md": {
-          "x": -871.5238609841831,
-          "y": 347.52614986457115
         },
         "Shops/Cranky.md": {
           "x": -997.8081376594438,
@@ -527,13 +567,13 @@
           "x": 212.6400887704483,
           "y": -163.24408952810745
         },
-        "Tiny/Sax.md": {
-          "x": -240.1024776078799,
-          "y": -159.21169290132315
-        },
         "Tiny/Twirl.md": {
           "x": -81.57540688787185,
           "y": -167.2764861548918
+        },
+        "Start.md": {
+          "x": -838.1693269498242,
+          "y": 60.27620078100813
         },
         "Keys/Key 2.md": {
           "x": 938.8289335221577,
@@ -550,10 +590,6 @@
         "Misc/Rareware Coin.md": {
           "x": -1135.686405969012,
           "y": 531.8465540506679
-        },
-        "Misc/Sphere 0.md": {
-          "x": -657.9153504377316,
-          "y": 73.32317924323843
         },
         "Phases/Chunky Phase.md": {
           "x": -532.3344874589086,
@@ -582,30 +618,6 @@
         "Shops/Snide.md": {
           "x": -601.9609262014185,
           "y": 354.9862579904308
-        },
-        "Keys/Key 1.md": {
-          "x": 662.5526801353132,
-          "y": -602.180693078501
-        },
-        "Kongs/Chunky.md": {
-          "x": 428.35830936992113,
-          "y": 29.58836769686559
-        },
-        "Kongs/Lanky.md": {
-          "x": 416.0322898559531,
-          "y": -318.6550658037022
-        },
-        "Kongs/Diddy.md": {
-          "x": 403.70627034198503,
-          "y": -509.72668418454487
-        },
-        "Kongs/DK.md": {
-          "x": 400.5977704873342,
-          "y": -682.8841868741051
-        },
-        "Kongs/Tiny.md": {
-          "x": 431.4398142484132,
-          "y": -149.15604949811586
         }
       },
       "hiddenLegendRows": [
@@ -682,7 +694,7 @@
       }
     }
   ],
-  "startingStateID": "f6cf51ca-d417-4a64-bef9-48f9ee4ac456",
+  "startingStateID": "531b781e-a62a-4641-a171-efd9de7794ca",
   "syncDefaultState": false,
   "openInNewTab": true,
   "customColorMaps": {},
@@ -693,17 +705,17 @@
   "allowExternalImages": false,
   "allowExternalLocalImages": false,
   "nodesSizeProperties": [
-    ""
+    "tags"
   ],
-  "nodesSizeFunction": "constant",
-  "nodesColorColormap": "Wistia_r",
-  "nodesColorFunction": "forwardlinksCount",
-  "linksSizeFunction": "Ocurences",
+  "nodesSizeFunction": "forwardlinksCount",
+  "nodesColorColormap": "viridis",
+  "nodesColorFunction": "default",
+  "linksSizeFunction": "default",
   "linksColorColormap": "YlOrRd_r",
-  "linksColorFunction": "Ocurences",
+  "linksColorFunction": "default",
   "zoomFactor": 2,
   "maxNodes": 100,
-  "delay": 500,
+  "delay": 800,
   "revertAction": false,
   "enableCSS": false,
   "cssSnippetFilename": "",
@@ -777,8 +789,8 @@
   "fadeOnDisable": false,
   "focusScaleFactor": 1,
   "borderUnresolved": 0.99,
-  "spreadArcs": true,
-  "weightArcs": true,
+  "spreadArcs": false,
+  "weightArcs": false,
   "animateDotsOnLinks": true,
   "animationSpeedForDots": 1,
   "interactivesBrightness": {
@@ -821,14 +833,14 @@
   "horizontalLegend": false,
   "useRadialMenu": false,
   "collapseState": false,
-  "collapseLegend": false,
-  "resetAfterChanges": false,
+  "collapseLegend": true,
+  "resetAfterChanges": true,
   "collapsedSettings": {
     "automation": true,
     "tags": true,
     "properties": true,
-    "links": true,
-    "arrows": false,
+    "links": false,
+    "arrows": true,
     "folders": true,
     "images": true,
     "icons": true,
@@ -837,7 +849,7 @@
     "elements-stats": true,
     "names": true,
     "zoom": true,
-    "display": false,
+    "display": true,
     "performances": true,
     "beta": true,
     "layers": true,
@@ -881,20 +893,20 @@
   "canonicalizePropertiesWithDataview": true,
   "saveConfigsWithState": false,
   "nodesSizeRange": {
-    "min": 0.5,
-    "max": 1.5
+    "min": 0.69,
+    "max": 1.38
   },
   "graphStatsDirection": "normal",
   "recomputeStatsOnGraphChange": true,
   "highlightOpenNodes": false,
   "highlightSearchResults": false,
-  "colorBasedOnDepth": true,
+  "colorBasedOnDepth": false,
   "depthColormap": "ocean",
   "currentNode": {
-    "useColor": true,
+    "useColor": false,
     "color": "#000000",
     "size": 100,
-    "shape": "star5"
+    "shape": "circle"
   },
   "fadeInElements": true,
   "externalLinks": "none",
@@ -911,7 +923,7 @@
   "layerProperties": [
     "layer"
   ],
-  "numberOfActiveLayers": 4,
+  "numberOfActiveLayers": 6,
   "layersOrder": "ASC",
   "displayLabelsInUI": true,
   "nodesWithoutLayerOpacity": 0,
