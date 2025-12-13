@@ -5,4 +5,7 @@ tags:
   - Cranky
 preset:
   - Season 4
+  - LZR
+  - Kill the Rabbit
+  - Plant the Bean
 ---

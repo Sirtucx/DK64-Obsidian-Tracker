@@ -4,6 +4,7 @@ tags:
   - K-Rool-Ship
 preset:
   - Season 4
+  - LZR
 ---
 [[Key 1]]
 [[Key 2]]

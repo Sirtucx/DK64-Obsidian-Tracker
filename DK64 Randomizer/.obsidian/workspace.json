@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "0c268cb2428970ae",
+        "id": "f0400fbeced8c142",
         "type": "tabs",
         "children": [
           {
-            "id": "314f6235fb98ef45",
+            "id": "939ad8cecc7907a8",
             "type": "leaf",
             "state": {
               "type": "graph",
@@ -61,8 +61,7 @@
               "title": "Search"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -134,27 +133,21 @@
       "graph:Open graph view": false
     }
   },
-  "active": "314f6235fb98ef45",
+  "active": "939ad8cecc7907a8",
   "lastOpenFiles": [
-    "Phases/K.Rool Ship.md",
-    "Phases/DK Phase.md",
-    "Phases/Chunky Phase.md",
-    "Phases/Lanky Phase.md",
-    "Phases/Tiny Phase.md",
-    "Phases/Diddy Phase.md",
-    "Finish.md",
-    "Keys/Key 8.md",
-    "Keys/Key 7.md",
     "Start.md",
+    "Finish.md",
     "Tiny/Twirl.md",
     "Tiny/Sax.md",
     "Tiny/Monkeyport.md",
     "Tiny/Mini.md",
     "Tiny/Feather.md",
+    "Shops/Snide.md",
+    "Shops/Funky.md",
+    "Shops/Cranky.md",
+    "Shops/Candy.md",
     "Shared/Vine Swinging.md",
     "Shared/Super Simian Slam (Slam 2).md",
-    "Shops/Candy.md",
-    "Phases/Beanstalk.md",
     "Shared/Super Duper Simian Slam (Slam 3).md",
     "Shared/Sniper Scope.md",
     "Shared/Simian Slam (Slam 1).md",
@@ -162,6 +155,12 @@
     "Shared/Orange Throwing.md",
     "Shared/Homing Ammo.md",
     "Shared/Diving.md",
+    "Shared/Climbing.md",
+    "Shared/Camera.md",
+    "Shared/Barrel Throwing.md",
+    "Phases/Tiny Phase.md",
+    "Phases/Rabbit.md",
+    "Phases/Pufftoss.md",
     "Assets/Phases/_Beanstalk.png",
     "Assets/Phases/_Rabbit.png",
     "Assets/Misc/_Finish.png",

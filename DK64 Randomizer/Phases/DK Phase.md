@@ -5,6 +5,7 @@ tags:
 types: Boss
 preset:
   - Season 4
+  - LZR
 ---
 [[K.Rool Ship]]
 
