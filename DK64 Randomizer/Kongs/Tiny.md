@@ -1,6 +1,9 @@
 ---
 image: Assets/Kongs/_Tiny.png
 tags:
-  - Kongs
   - Tiny
+preset:
+  - Season 4
+  - Kill the Rabbit
+  - Plant the Bean
 ---

@@ -1,6 +1,9 @@
 ---
 image: Assets/Kongs/_Chunky.png
 tags:
-  - Kongs
   - Chunky
+preset:
+  - Season 4
+  - Kill the Rabbit
+  - Plant the Bean
 ---

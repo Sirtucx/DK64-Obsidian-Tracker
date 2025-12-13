@@ -2,5 +2,8 @@
 image: Assets/Diddy/_Peanut.png
 tags:
   - Diddy
-  - Weapon
+preset:
+  - Season 4
+  - Kill the Rabbit
+  - Plant the Bean
 ---

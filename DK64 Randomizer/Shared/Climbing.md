@@ -1,6 +1,6 @@
 ---
 image: Assets/Shared Moves/_Climbing.png
 tags:
-  - ignore
+  - Shared
 ---
-[[Sphere 0]]
+[[Start]]
