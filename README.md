@@ -2,11 +2,7 @@
 
 This repository contains my Obsidian project that allows me to show connections to various DK64 Randomizer items on stream.
 
-
-
-
-
-Setting up the project:
+## Setting up the project:
 
 1. Download Obsidian (https://obsidian.md/download)
 2. Download the project from Github (see https://github.com/Sirtucx/DK64-Obsidian-Tracker/releases)
@@ -14,7 +10,7 @@ Setting up the project:
 4. Select the root folder `DK64 Randomizer`. This should be right next to the README.txt
 
 
-How to use this project:
+## How to use this project:
 
 * In order to use it on stream you will need to open two instances of the Graph View. To do this navigate to the top left of the opened project, there should be a symbol with three circles in a triangle. This will open the Graph View in a Tab. I would recommend pinning this tab.
 
@@ -27,7 +23,7 @@ Results:
 
 
 
-Input Graph:
+## Input Graph:
 
 * With the pinned Graph view, you will see a sidebar on the right side of the screen. What we are looking for is an icon in the shape of an `eye`. This allows you to save the "state" of a graph view. It will also allow you to load a graph state by selecting it.
 
@@ -42,10 +38,31 @@ Note: You may see this with not all of the nodes visible, this can happen based 
 ![Loading Input Graph #2](./Screenshots/LoadingInputGraph_2.png?raw=true "Loading Input Graph #2")
 
 * With the Input Graph, we will use this to assign connections. With the settings I have, you simply need to click on the icon you want to establish a connection(s) to and say what the source of the connection is. For example, we unlocked Peanut by using the moves Coconut and Diving, we would then click on the Peanut node and add the Coconut/Diving connections there.
-* The Input State Graph does not show connections, it has all of the arrows/lines hidden.
+* The Input State Graph does will show lines, but their visibility will be reduced. This is because certain nodes (such as end game nodes) will contain their connections.
 
+### Preset & Tag Manager
 
-Establishing Connections:
+To interact with these managers, similar to how we opened the Input Graph State, instead of clicking on the `eye` icon. Click on the `tag` icon. By default it will be a vertical panel on the left side.
+
+![Preset & Tag Manager](./Screenshots/Preset-Tag-Manager.png?raw=true "Preset & Tag Manager")
+
+#### Presets
+Here you will only need to enable a single preset on both graphs to show the nodes available to you. This please only have a *single* preset active 
+
+#### Tags
+By default the tags enabled should be good for almost every preset. The disabled tags are for you to enable based on the preset and the end game conditions, such as the K.Rool phases, and T&S bosses. You may enable as many of these as you wish.
+
+## Preset Settings files
+
+Located in the `DK64-Obsidian-Tracker\DK64 Randomizer\Settings` folder are a bunch of batch files (Windows only) that will allow you to update the starting items for the supported presets. The following presets are supported:
+- Season 4
+- LZR
+- Kill the Rabbit (Elmur)
+- Plant the Bean (Bean Blitz)
+
+You only need to click on the batch file in the folder and it will override the starting items and their connections. Note, this does not clear any existing connections for non-starting items.
+
+## Establishing Connections:
 
 * To establish a connection in Obsidian you need to type the name of the Node, surrounded by `[[]]`. Example: [[Coconut]]
 * Please do not use any nodes/files with an `_` (underscore) as the prefix. This is to denote the source image file and not the node itself.
@@ -71,8 +88,6 @@ Cleaning up:
 * To remove connections you simply need to go into the respective node and remove the connection strings ([[Node Name]]). You can click on the nodes with arrows being pointed to, to open the file and manage it. I would recommend doing this with the `Stream Graph` state as it's easier to view the connections.
 * At the bottom of each node you will see the `Linked Mentions` and see potential references to other nodes, you can click on these to go further and if you reach a dead end, there is a back button below the tab name.
 * Please be wary not to remove the references in the K. Rool Phases nodes when using the `Linked Mentions` tool.
-
-
 
 Other things to note:
 

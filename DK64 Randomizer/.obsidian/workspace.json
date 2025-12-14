@@ -10,35 +10,23 @@
           {
             "id": "96d1a03c40a3fe83",
             "type": "leaf",
+            "pinned": true,
             "state": {
               "type": "graph",
               "state": {},
+              "pinned": true,
               "icon": "lucide-git-fork",
               "title": "Graph view"
             }
           },
           {
-            "id": "4eea24836eb542c8",
+            "id": "7c7774c5d0b5bf52",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Shared/Camera.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Camera"
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
             }
           }
         ],
@@ -90,7 +78,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "009059ed2372d603",
@@ -158,8 +147,9 @@
       "graph:Open graph view": false
     }
   },
-  "active": "4eea24836eb542c8",
+  "active": "7c7774c5d0b5bf52",
   "lastOpenFiles": [
+    "Shared/Camera.md",
     "Settings/Plant the Bean/Plant-the-Bean-Simian-Slam.bat",
     "Settings/Plant the Bean/Plant-the-Bean-Key-6.bat",
     "Settings/Plant the Bean/Plant-the-Bean-Key-2.bat",
@@ -170,8 +160,6 @@
     "Settings/Plant the Bean/LZR-Key-2.bat",
     "Settings/Plant the Bean/LZR-Climbing.bat",
     "Settings/Plant the Bean/LZR-Camera.bat",
-    "Settings/Plant the Bean",
-    "Shared/Camera.md",
     "Keys/Key 2.md",
     "Start.md",
     "Settings/_Season 4 Settings.md",
