@@ -2,5 +2,9 @@
 image: Assets/DK/_Coconut.png
 tags:
   - DK
-  - Weapon
+preset:
+  - Season 4
+  - Kill the Rabbit
+  - Plant the Bean
+  - LZR
 ---

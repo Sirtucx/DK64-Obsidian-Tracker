@@ -1,6 +1,10 @@
 ---
 image: Assets/Diddy/_Guitar.png
 tags:
-  - Instrument
   - Diddy
+preset:
+  - Season 4
+  - Kill the Rabbit
+  - Plant the Bean
+  - LZR
 ---

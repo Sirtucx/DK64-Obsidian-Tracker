@@ -4,11 +4,23 @@
     "type": "split",
     "children": [
       {
-        "id": "06b13a8b86c7141e",
+        "id": "1591d23869f569bb",
         "type": "tabs",
         "children": [
           {
-            "id": "014fdd9bdd5dba0f",
+            "id": "96d1a03c40a3fe83",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "graph",
+              "state": {},
+              "pinned": true,
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
+            }
+          },
+          {
+            "id": "7c7774c5d0b5bf52",
             "type": "leaf",
             "state": {
               "type": "graph",
@@ -18,6 +30,7 @@
             }
           }
         ],
+        "currentTab": 1,
         "stacked": true
       }
     ],
@@ -50,7 +63,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:DK-Phase",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -106,6 +119,20 @@
               "icon": "links-going-out",
               "title": "Outgoing links"
             }
+          },
+          {
+            "id": "fbacc34b94ccaefb",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline"
+            }
           }
         ]
       }
@@ -116,92 +143,57 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "command-palette:Open command palette": false,
       "graph:Open graph view": false
     }
   },
-  "floating": {
-    "id": "526a9d8303b5d816",
-    "type": "floating",
-    "children": [
-      {
-        "id": "06c5fba238f347a9",
-        "type": "window",
-        "children": [
-          {
-            "id": "f56bec2eb6a77ead",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "e33c5b4d952c50b6",
-                "type": "leaf",
-                "state": {
-                  "type": "graph",
-                  "state": {},
-                  "icon": "lucide-git-fork",
-                  "title": "Graph view"
-                }
-              }
-            ]
-          }
-        ],
-        "direction": "vertical",
-        "x": -1456,
-        "y": 310,
-        "width": 700,
-        "height": 1032,
-        "maximize": true,
-        "zoom": 0
-      }
-    ]
-  },
-  "active": "e33c5b4d952c50b6",
+  "active": "7c7774c5d0b5bf52",
   "lastOpenFiles": [
-    "Shared/Shockwave.md",
-    "Shared/Diving.md",
-    "Kongs/Lanky.md",
-    "DK/Coconut.md",
-    "DK/Bongos.md",
-    "DK/Blast.md",
-    "Tiny/Mini.md",
-    "Shops/Cranky.md",
-    "Tiny/Sax.md",
-    "Diddy/Rocket.md",
-    "Diddy/Peanut.md",
-    "Diddy/Guitar.md",
-    "Diddy/Charge.md",
-    "Chunky/Triangle.md",
-    "Chunky/Punch.md",
-    "Chunky/Hunky.md",
-    "Chunky/Gone.md",
-    "Lanky/OStand.md",
-    "Diddy/Spring.md",
-    "Misc/Bean.md",
+    "Shared/Camera.md",
+    "Settings/Plant the Bean/Plant-the-Bean-Simian-Slam.bat",
+    "Settings/Plant the Bean/Plant-the-Bean-Key-6.bat",
+    "Settings/Plant the Bean/Plant-the-Bean-Key-2.bat",
+    "Settings/Plant the Bean/Plant-the-Bean-Climbing.bat",
+    "Settings/Plant the Bean/Plant-the-Bean-Camera.bat",
+    "Settings/Plant the Bean/LZR-Key-6.bat",
+    "Settings/Plant the Bean/LZR-Simian-Slam.bat",
+    "Settings/Plant the Bean/LZR-Key-2.bat",
+    "Settings/Plant the Bean/LZR-Climbing.bat",
+    "Settings/Plant the Bean/LZR-Camera.bat",
+    "Keys/Key 2.md",
+    "Start.md",
+    "Settings/_Season 4 Settings.md",
+    "Shared/Simian Slam (Slam 1).md",
+    "Finish.md",
     "Tiny/Twirl.md",
-    "Lanky/Trombone.md",
-    "Lanky/Balloon.md",
-    "Keys/Key 7.md",
+    "Tiny/Sax.md",
+    "Tiny/Monkeyport.md",
+    "Tiny/Mini.md",
+    "Tiny/Feather.md",
+    "Shops/Snide.md",
+    "Shops/Funky.md",
+    "Shops/Cranky.md",
+    "Shops/Candy.md",
+    "Shared/Vine Swinging.md",
+    "Shared/Super Simian Slam (Slam 2).md",
+    "Shared/Super Duper Simian Slam (Slam 3).md",
     "Shared/Sniper Scope.md",
-    "Keys/Key 3.md",
+    "Shared/Shockwave.md",
+    "Shared/Orange Throwing.md",
+    "Shared/Homing Ammo.md",
+    "Shared/Diving.md",
+    "Shared/Climbing.md",
+    "Shared/Barrel Throwing.md",
+    "Assets/Phases/_Beanstalk.png",
+    "Assets/Phases/_Rabbit.png",
+    "Assets/Misc/_Finish.png",
     "Assets/Misc/_Start.png",
-    "Kongs",
-    "Assets/Kongs/_Tiny.png",
-    "Assets/Kongs/_Lanky.png",
-    "Assets/Kongs/_DK.png",
-    "Assets/Kongs/_Diddy.png",
-    "Assets/Kongs/_Chunky.png",
-    "Assets/Kongs",
-    "Assets/Kongs/_Tiny.png.0.pdnSave",
-    "Assets/Kongs/_Lanky.png.0.pdnSave",
-    "Assets/Kongs/_Chunky.png.0.pdnSave",
-    "Assets/Kongs/_Diddy.png.0.pdnSave",
-    "Assets/Kongs/_DK.png.0.pdnSave",
-    "Assets/Shared Moves/_Climbing.png",
-    "Assets/Phases/_Helm.png",
-    "Assets/Phases/krool.png",
-    "Assets/Phases/FinalChunkyIcon.png",
-    "Phases.zip",
-    "DK64-Obsidian-Tracker",
-    "Assets/Tiny/sax_base64.txt",
+    "Assets/Phases/_Pufftoss.png",
+    "Assets/Phases/_Madjack.png",
+    "Assets/Phases/_Kutout.png",
+    "Assets/Phases/_Doga2.png",
+    "Assets/Phases/_Doga1.png",
+    "Assets/Phases/_Army2.png",
     "Untitled.canvas",
     "Test.canvas",
     "Mind Map.canvas"

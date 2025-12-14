@@ -2,4 +2,9 @@
 image: Assets/Lanky/_Orangestand Sprint.png
 tags:
   - Lanky
+preset:
+  - Season 4
+  - Kill the Rabbit
+  - Plant the Bean
+  - LZR
 ---

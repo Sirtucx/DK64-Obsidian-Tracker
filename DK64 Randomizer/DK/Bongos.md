@@ -1,6 +1,10 @@
 ---
 image: Assets/DK/_Bongos.png
 tags:
-  - Instrument
   - DK
+preset:
+  - Season 4
+  - Kill the Rabbit
+  - Plant the Bean
+  - LZR
 ---

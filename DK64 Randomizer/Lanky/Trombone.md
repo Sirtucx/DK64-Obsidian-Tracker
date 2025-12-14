@@ -1,6 +1,10 @@
 ---
 image: Assets/Lanky/_Trombone.png
 tags:
-  - Instrument
   - Lanky
+preset:
+  - Season 4
+  - Kill the Rabbit
+  - Plant the Bean
+  - LZR
 ---

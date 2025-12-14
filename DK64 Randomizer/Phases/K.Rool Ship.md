@@ -1,0 +1,16 @@
+---
+image: Assets/Phases/_Helm.png
+tags:
+  - K-Rool-Ship
+preset:
+  - Season 4
+  - LZR
+---
+[[Key 1]]
+[[Key 2]]
+[[Key 3]]
+[[Key 4]]
+[[Key 5]]
+[[Key 6]]
+[[Key 7]]
+[[Key 8]]

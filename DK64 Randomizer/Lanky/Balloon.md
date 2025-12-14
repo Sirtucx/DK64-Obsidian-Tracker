@@ -2,4 +2,9 @@
 image: Assets/Lanky/_Balloon.png
 tags:
   - Lanky
+preset:
+  - Season 4
+  - Kill the Rabbit
+  - Plant the Bean
+  - LZR
 ---

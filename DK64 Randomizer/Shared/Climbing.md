@@ -1,6 +1,10 @@
 ---
 image: Assets/Shared Moves/_Climbing.png
 tags:
-  - ignore
+  - Shared
+preset:
+  - LZR
 ---
-[[Sphere 0]]
+Season 4 Preset:
+[[Start]]
+

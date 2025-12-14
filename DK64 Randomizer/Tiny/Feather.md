@@ -1,6 +1,10 @@
 ---
 image: Assets/Tiny/_Feather.png
 tags:
-  - Weapon
   - Tiny
+preset:
+  - Season 4
+  - Kill the Rabbit
+  - Plant the Bean
+  - LZR
 ---
