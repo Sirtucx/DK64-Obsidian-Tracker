@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "f0400fbeced8c142",
+        "id": "1591d23869f569bb",
         "type": "tabs",
         "children": [
           {
-            "id": "939ad8cecc7907a8",
+            "id": "96d1a03c40a3fe83",
             "type": "leaf",
             "state": {
               "type": "graph",
@@ -16,8 +16,33 @@
               "icon": "lucide-git-fork",
               "title": "Graph view"
             }
+          },
+          {
+            "id": "4eea24836eb542c8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Shared/Camera.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Camera"
+            }
           }
         ],
+        "currentTab": 1,
         "stacked": true
       }
     ],
@@ -133,9 +158,24 @@
       "graph:Open graph view": false
     }
   },
-  "active": "939ad8cecc7907a8",
+  "active": "4eea24836eb542c8",
   "lastOpenFiles": [
+    "Settings/Plant the Bean/Plant-the-Bean-Simian-Slam.bat",
+    "Settings/Plant the Bean/Plant-the-Bean-Key-6.bat",
+    "Settings/Plant the Bean/Plant-the-Bean-Key-2.bat",
+    "Settings/Plant the Bean/Plant-the-Bean-Climbing.bat",
+    "Settings/Plant the Bean/Plant-the-Bean-Camera.bat",
+    "Settings/Plant the Bean/LZR-Key-6.bat",
+    "Settings/Plant the Bean/LZR-Simian-Slam.bat",
+    "Settings/Plant the Bean/LZR-Key-2.bat",
+    "Settings/Plant the Bean/LZR-Climbing.bat",
+    "Settings/Plant the Bean/LZR-Camera.bat",
+    "Settings/Plant the Bean",
+    "Shared/Camera.md",
+    "Keys/Key 2.md",
     "Start.md",
+    "Settings/_Season 4 Settings.md",
+    "Shared/Simian Slam (Slam 1).md",
     "Finish.md",
     "Tiny/Twirl.md",
     "Tiny/Sax.md",
@@ -150,17 +190,12 @@
     "Shared/Super Simian Slam (Slam 2).md",
     "Shared/Super Duper Simian Slam (Slam 3).md",
     "Shared/Sniper Scope.md",
-    "Shared/Simian Slam (Slam 1).md",
     "Shared/Shockwave.md",
     "Shared/Orange Throwing.md",
     "Shared/Homing Ammo.md",
     "Shared/Diving.md",
     "Shared/Climbing.md",
-    "Shared/Camera.md",
     "Shared/Barrel Throwing.md",
-    "Phases/Tiny Phase.md",
-    "Phases/Rabbit.md",
-    "Phases/Pufftoss.md",
     "Assets/Phases/_Beanstalk.png",
     "Assets/Phases/_Rabbit.png",
     "Assets/Misc/_Finish.png",
@@ -171,16 +206,6 @@
     "Assets/Phases/_Doga2.png",
     "Assets/Phases/_Doga1.png",
     "Assets/Phases/_Army2.png",
-    "Assets/Kongs/_Tiny.png.0.pdnSave",
-    "Assets/Kongs/_Lanky.png.0.pdnSave",
-    "Assets/Kongs/_Chunky.png.0.pdnSave",
-    "Assets/Kongs/_Diddy.png.0.pdnSave",
-    "Assets/Kongs/_DK.png.0.pdnSave",
-    "Assets/Kongs",
-    "Kongs",
-    "Phases.zip",
-    "DK64-Obsidian-Tracker",
-    "Assets/Tiny/sax_base64.txt",
     "Untitled.canvas",
     "Test.canvas",
     "Mind Map.canvas"
