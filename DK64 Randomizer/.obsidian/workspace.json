@@ -16,6 +16,54 @@
               "icon": "lucide-git-fork",
               "title": "Graph view"
             }
+          },
+          {
+            "id": "0a9530f7e40bc779",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Levels/0_DK Isles/Level Lobby/Japes Level Entrance.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Japes Level Entrance"
+            }
+          },
+          {
+            "id": "6ebe78e5e019f3c0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Levels/0_DK Isles/Level Lobby/Japes Lobby Entrance.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Japes Lobby Entrance"
+            }
           }
         ],
         "stacked": true
@@ -134,33 +182,33 @@
   },
   "active": "5b28319a713be018",
   "lastOpenFiles": [
+    "Levels/0_DK Isles/Level Lobby/Japes Level Entrance.md",
+    "Levels/0_DK Isles/Level Lobby/Japes Lobby Entrance.md",
+    "Levels/0_DK Isles/Level Lobby/Japes Lobby Exit.md",
+    "Levels/0_DK Isles/DK Isles/Banana Fairy Entrance.md",
+    "Levels/0_DK Isles/DK Isles/Snide Hideout Entrance.md",
+    "Levels/0_DK Isles/DK Isles/K. Lumsy Room Entrance.md",
+    "Levels/0_DK Isles/DK Isles/K. Lumsy Room Exit.md",
+    "Levels/0_DK Isles/DK Isles/Snide Hideout Exit.md",
+    "Levels/0_DK Isles/DK Isles/Banana Fairy Exit.md",
+    "Levels/0_DK Isles/Training Ground/DK's Treehouse Entrance.md",
+    "Levels/0_DK Isles/DK Isles/Training Ground Entrance.md",
+    "Levels/0_DK Isles/Training Ground/DK's Treehouse Exit.md",
+    "_DK's Treehouse Entrance.md",
+    "Levels/0_DK Isles/Training Ground/Training Ground Exit.md",
     "Levels/7_Creepy Castle/Castle Rooms/Tiny Ballroom Exit.md",
     "Levels/7_Creepy Castle/Castle Surroundings/Chunky Shed Exit.md",
     "Levels/6_Crystal Caves/5 Door Cabin/Donkey 5DC Exit.md",
     "Levels/4_Gloomy Galleon/Lighthouse Area/Chunky Ship Entrance.md",
-    "Levels/0_DK Isles/Level Lobby/Japes Lobby Exit.md",
-    "Levels/0_DK Isles/DK Isles/Banana Fairy Entrance.md",
-    "Levels/0_DK Isles/DK Isles/Banana Fairy Exit.md",
     "Assets/Levels",
     "Shared/Climbing.md",
     "Misc/Rareware Coin.md",
     "Misc/Banana Medal.md",
     "Lanky/Balloon.md",
-    "Levels/0_DK Isles/DK Isles/Snide Hideout Entrance.md",
-    "Levels/0_DK Isles/DK Isles/K. Lumsy Room Exit.md",
-    "Levels/0_DK Isles/DK Isles/K. Lumsy Room Entrance.md",
     "Levels/7_Creepy Castle/Underground Upper/Underground Upper Moat Exit.md",
     "Levels/7_Creepy Castle/Underground Upper/Underground Upper Moat Entrance.md",
     "Levels/7_Creepy Castle/Underground Upper/Underground Upper Back Door Exit.md",
     "Levels/7_Creepy Castle/Underground Upper/Underground Upper Back Door Entrance.md",
-    "Levels/7_Creepy Castle/Underground Lower/Underground Lower Exit.md",
-    "Levels/7_Creepy Castle/Underground Lower/Underground Lower Entrance.md",
-    "Levels/7_Creepy Castle/Underground Lower/Mausoleum Exit.md",
-    "Levels/7_Creepy Castle/Underground Lower/Mausoleum Entrance.md",
-    "Levels/7_Creepy Castle/Underground Lower/Crypt Exit.md",
-    "Levels/7_Creepy Castle/Underground Lower/Crypt Entrance.md",
-    "Levels/7_Creepy Castle/Underground Upper/Dungeon Exit.md",
-    "Levels/7_Creepy Castle/Underground Upper/Dungeon Entrance.md",
     "Levels/6_Crystal Caves/5 Door Igloo",
     "Levels/6_Crystal Caves/Caves Main Area",
     "Levels/6_Crystal Caves/Cabin Area",
