@@ -92,10 +92,26 @@
       "noneType": "none",
       "showOnGraph": false,
       "enableByDefault": true
+    },
+    "types": {
+      "colormap": "rainbow",
+      "colors": [],
+      "unselected": [],
+      "excludeRegex": {
+        "regex": "",
+        "flags": ""
+      },
+      "noneType": "none",
+      "showOnGraph": false,
+      "enableByDefault": true
     }
   },
   "additionalProperties": {
     "preset": {
+      "graph": true,
+      "localgraph": true
+    },
+    "types": {
       "graph": true,
       "localgraph": true
     }
@@ -119,7 +135,7 @@
     "repelStrength": 10,
     "linkStrength": 1,
     "linkDistance": 250,
-    "scale": 0.791177265153125,
+    "scale": 0.3475799644150116,
     "close": true
   },
   "states": [
@@ -236,6 +252,7 @@
           "Doga2",
           "K-Rool-Ship",
           "Lanky-Phase",
+          "Loading-Zones",
           "Madjack",
           "Rabbit",
           "Tiny-Phase"
@@ -248,6 +265,9 @@
           "Plant the Bean",
           "Season 4",
           "none"
+        ],
+        "types": [
+          "Loading-Zones"
         ]
       },
       "logicTypes": {
@@ -369,6 +389,7 @@
         "tag": [
           "Finish",
           "K-Rool-Ship",
+          "Loading-Zones",
           "Medal",
           "Sphere0",
           "Start"
@@ -382,6 +403,455 @@
           "LZR",
           "Plant the Bean",
           "Season 4",
+          "none"
+        ],
+        "types": [
+          "Loading-Zones"
+        ]
+      },
+      "logicTypes": {
+        "tag": "OR",
+        "link": "OR",
+        "folder": "OR",
+        "tags": "OR",
+        "displayonstream": "OR"
+      },
+      "pinNodes": {
+        "Chunky/Gone.md": {
+          "x": 240.30307310200737,
+          "y": -0.9624011001476447
+        },
+        "Chunky/Hunky.md": {
+          "x": 74.26476432840741,
+          "y": 0.7400399611209423
+        },
+        "Chunky/Pineapple.md": {
+          "x": -414.75094535026165,
+          "y": -14.045414337088232
+        },
+        "Chunky/Punch.md": {
+          "x": -89.63610539905858,
+          "y": 4.77243658790519
+        },
+        "Chunky/Triangle.md": {
+          "x": -256.2238746302536,
+          "y": -4.636488874591464
+        },
+        "DK/Blast.md": {
+          "x": 207.39538030119093,
+          "y": -672.2746359037892
+        },
+        "DK/Bongos.md": {
+          "x": -251.02122121451384,
+          "y": -664.2930171351272
+        },
+        "DK/Coconut.md": {
+          "x": -406.758643960944,
+          "y": -676.7200072870892
+        },
+        "DK/Grab.md": {
+          "x": -100.49636698547647,
+          "y": -665.4332483877932
+        },
+        "DK/Strong.md": {
+          "x": 53.44950665785723,
+          "y": -675.6953296617871
+        },
+        "Diddy/Charge.md": {
+          "x": -92.51398835211853,
+          "y": -509.22156677255384
+        },
+        "Diddy/Guitar.md": {
+          "x": -251.02122121451384,
+          "y": -513.7824917832179
+        },
+        "Diddy/Peanut.md": {
+          "x": -415.1745306159587,
+          "y": -506.59528268681345
+        },
+        "Diddy/Rocket.md": {
+          "x": 74.8024994346531,
+          "y": -510.2064184067364
+        },
+        "Diddy/Spring.md": {
+          "x": 221.07945795837622,
+          "y": -514.9227230358838
+        },
+        "Keys/Key 1.md": {
+          "x": 664.5774775848286,
+          "y": -675.204439593219
+        },
+        "Keys/Key 2.md": {
+          "x": 784.5160164388949,
+          "y": -671.2724028203378
+        },
+        "Keys/Key 3.md": {
+          "x": 904.4545552929617,
+          "y": -665.3743476610157
+        },
+        "Keys/Key 4.md": {
+          "x": 1034.2241219219518,
+          "y": -659.4762925016937
+        },
+        "Keys/Key 5.md": {
+          "x": 660.645066474859,
+          "y": -506.1268583593212
+        },
+        "Keys/Key 6.md": {
+          "x": 788.4484275488644,
+          "y": -502.19482158643984
+        },
+        "Keys/Key 7.md": {
+          "x": 910.353171957916,
+          "y": -498.2627848135585
+        },
+        "Keys/Key 8.md": {
+          "x": 1047.9875608068446,
+          "y": -488.43269288135514
+        },
+        "Kongs/Chunky.md": {
+          "x": 422.4550913168964,
+          "y": 5.843103504419787
+        },
+        "Kongs/DK.md": {
+          "x": 409.8401488394361,
+          "y": -679.8018075835548
+        },
+        "Kongs/Diddy.md": {
+          "x": 406.758643960944,
+          "y": -507.22099098150375
+        },
+        "Kongs/Lanky.md": {
+          "x": 431.7065837061152,
+          "y": -317.9280222083903
+        },
+        "Kongs/Tiny.md": {
+          "x": 431.70658370611545,
+          "y": -154.5008503019344
+        },
+        "Lanky/Balloon.md": {
+          "x": 203.2359405073969,
+          "y": -315.13102913698293
+        },
+        "Lanky/Grape.md": {
+          "x": -405.34679708721023,
+          "y": -328.5718228285383
+        },
+        "Lanky/OSprint.md": {
+          "x": 59.48681705789818,
+          "y": -316.47516134591103
+        },
+        "Lanky/OStand.md": {
+          "x": -101.7271531658389,
+          "y": -324.53995459947964
+        },
+        "Lanky/Trombone.md": {
+          "x": -241.44592735974436,
+          "y": -335.29301227090446
+        },
+        "Misc/Banana Medal.md": {
+          "x": -656.5719006858671,
+          "y": -109.47880117098339
+        },
+        "Misc/Bean.md": {
+          "x": 660.645066474859,
+          "y": -144.37947525423738
+        },
+        "Misc/N64 Coin.md": {
+          "x": 928.0490219527783,
+          "y": -148.3115120271184
+        },
+        "Misc/Rareware Coin.md": {
+          "x": 790.4146331038492,
+          "y": -146.34549364067766
+        },
+        "Misc/Sphere 0.md": {
+          "x": -657.9153504377316,
+          "y": 73.32317924323843
+        },
+        "Phases/Army 1.md": {
+          "x": 792.1913790556009,
+          "y": 212.145054642511
+        },
+        "Phases/Army 2.md": {
+          "x": 952.295026293365,
+          "y": 382.2389865794046
+        },
+        "Phases/Beanstalk.md": {
+          "x": 806.1442775437267,
+          "y": 543.7269599999988
+        },
+        "Phases/Chunky Phase.md": {
+          "x": 650.8140386999357,
+          "y": 211.46985269152492
+        },
+        "Phases/DK Phase.md": {
+          "x": 654.7464498099048,
+          "y": 28.630142752542042
+        },
+        "Phases/Diddy Phase.md": {
+          "x": 796.3132497688034,
+          "y": 26.664124366101305
+        },
+        "Phases/Doga 1.md": {
+          "x": 938.2859571600607,
+          "y": 214.14615972412162
+        },
+        "Phases/Doga 2.md": {
+          "x": 796.1939702365448,
+          "y": 378.2367764161834
+        },
+        "Phases/K.Rool Ship.md": {
+          "x": 1218.8854925138482,
+          "y": -548.5661672952274
+        },
+        "Phases/Kutout.md": {
+          "x": 1096.3883088073526,
+          "y": 374.2345662529624
+        },
+        "Phases/Lanky Phase.md": {
+          "x": 928.0490219527783,
+          "y": 30.59616113898278
+        },
+        "Phases/Madjack.md": {
+          "x": 1084.3805352645204,
+          "y": 210.1439495609004
+        },
+        "Phases/Pufftoss.md": {
+          "x": 654.1019833130295,
+          "y": 382.2389865794046
+        },
+        "Phases/Rabbit.md": {
+          "x": 660.6450664748586,
+          "y": 547.6589967728803
+        },
+        "Phases/Tiny Phase.md": {
+          "x": 1065.683410801707,
+          "y": 32.56217952542352
+        },
+        "Shared/Barrel Throwing.md": {
+          "x": -268.58951993529445,
+          "y": 360.5004552436849
+        },
+        "Shared/Camera.md": {
+          "x": -427.42187580662426,
+          "y": 170.31884206529185
+        },
+        "Shared/Climbing.md": {
+          "x": 245.7756943730874,
+          "y": 189.84365044067727
+        },
+        "Shared/Diving.md": {
+          "x": -442.3406240876541,
+          "y": 349.497963615823
+        },
+        "Shared/Homing Ammo.md": {
+          "x": -281.7858063266128,
+          "y": 173.45809757002962
+        },
+        "Shared/Orange Throwing.md": {
+          "x": -119.03160750035181,
+          "y": 180.0595925467469
+        },
+        "Shared/Shockwave.md": {
+          "x": 72.31454517376596,
+          "y": 364.90145189482996
+        },
+        "Shared/Simian Slam (Slam 1).md": {
+          "x": 247.797333426686,
+          "y": 355.665707039367
+        },
+        "Shared/Sniper Scope.md": {
+          "x": 65.71640197810689,
+          "y": 188.8615858490366
+        },
+        "Shared/Super Duper Simian Slam (Slam 3).md": {
+          "x": 431.99468992158336,
+          "y": 359.42447892179894
+        },
+        "Shared/Super Simian Slam (Slam 2).md": {
+          "x": 428.6328109866645,
+          "y": 193.77568721355874
+        },
+        "Shared/Vine Swinging.md": {
+          "x": -108.03470217425297,
+          "y": 356.09945859254026
+        },
+        "Shops/Candy.md": {
+          "x": 794.3470442138187,
+          "y": -309.52501971525373
+        },
+        "Shops/Cranky.md": {
+          "x": 656.7126553648895,
+          "y": -311.49103810169447
+        },
+        "Shops/Funky.md": {
+          "x": 930.0152275077626,
+          "y": -301.6609461694911
+        },
+        "Shops/Snide.md": {
+          "x": 1058.820040940432,
+          "y": -302.50282878821633
+        },
+        "Tiny/Feather.md": {
+          "x": -418.781294605855,
+          "y": -176.68541161738852
+        },
+        "Tiny/Mini.md": {
+          "x": 67.54751556908491,
+          "y": -151.14689964775454
+        },
+        "Tiny/Monkeyport.md": {
+          "x": 212.6400887704483,
+          "y": -163.24408952810745
+        },
+        "Tiny/Sax.md": {
+          "x": -240.1024776078799,
+          "y": -159.21169290132315
+        },
+        "Tiny/Twirl.md": {
+          "x": -81.57540688787185,
+          "y": -167.2764861548918
+        }
+      },
+      "hiddenLegendRows": [
+        "link"
+      ],
+      "collapsedLegendRows": [],
+      "engineOptions": {
+        "colorGroups": [
+          {
+            "query": "tag:#Keys",
+            "color": {
+              "a": 1,
+              "rgb": 14725458
+            }
+          },
+          {
+            "query": "tag:#DK",
+            "color": {
+              "a": 1,
+              "rgb": 10644998
+            }
+          },
+          {
+            "query": "tag:#Diddy",
+            "color": {
+              "a": 1,
+              "rgb": 14701138
+            }
+          },
+          {
+            "query": "tag:#Lanky",
+            "color": {
+              "a": 1,
+              "rgb": 2776774
+            }
+          },
+          {
+            "query": "tag:#Tiny",
+            "color": {
+              "a": 1,
+              "rgb": 8994491
+            }
+          },
+          {
+            "query": "tag:#Chunky",
+            "color": {
+              "a": 1,
+              "rgb": 3735392
+            }
+          },
+          {
+            "query": "tag:#Shared",
+            "color": {
+              "a": 1,
+              "rgb": 11118917
+            }
+          },
+          {
+            "query": "[\"types\":Boss]",
+            "color": {
+              "a": 1,
+              "rgb": 6381921
+            }
+          },
+          {
+            "query": "[\"types\":Collectable]",
+            "color": {
+              "a": 1,
+              "rgb": 14701233
+            }
+          }
+        ],
+        "search": "",
+        "hideUnresolved": false,
+        "showAttachments": false,
+        "showOrphans": true,
+        "showTags": false,
+        "lineSizeMultiplier": 0.1,
+        "nodeSizeMultiplier": 5,
+        "showArrow": false,
+        "textFadeMultiplier": 3,
+        "centerStrength": 0.697916666666667,
+        "linkDistance": 270,
+        "linkStrength": 1,
+        "repelStrength": 20
+      }
+    },
+    {
+      "id": "8ded4239-8a0e-411f-8706-85765cd33f05",
+      "name": "Loading Zone Input State",
+      "enableLayers": false,
+      "currentLayerLevel": 0,
+      "toggleTypes": {
+        "tag": [
+          "Army1",
+          "Army2",
+          "Bean",
+          "Beanstalk",
+          "Candy",
+          "Chunky",
+          "Chunky-Phase",
+          "Cranky",
+          "DK",
+          "DK-Phase",
+          "Diddy",
+          "Diddy-Phase",
+          "Doga1",
+          "Doga2",
+          "Finish",
+          "Funky",
+          "K-Rool-Ship",
+          "Keys",
+          "Kutout",
+          "Lanky",
+          "Lanky-Phase",
+          "Madjack",
+          "Medal",
+          "Pufftoss",
+          "Rabbit",
+          "Shared",
+          "Shops",
+          "Snide",
+          "Sphere0",
+          "Start",
+          "Tiny",
+          "Tiny-Phase",
+          "notags"
+        ],
+        "link": [],
+        "folder": [],
+        "preset": [
+          "Kill the Rabbit",
+          "LZR",
+          "Plant the Bean",
+          "Season 4"
+        ],
+        "types": [
+          "Boss",
+          "Collectable",
+          "Objective",
           "none"
         ]
       },
@@ -553,6 +1023,10 @@
           "x": 952.295026293365,
           "y": 382.2389865794046
         },
+        "Phases/Beanstalk.md": {
+          "x": 806.1442775437267,
+          "y": 543.7269599999988
+        },
         "Phases/Chunky Phase.md": {
           "x": 650.8140386999357,
           "y": 211.46985269152492
@@ -573,6 +1047,10 @@
           "x": 796.1939702365448,
           "y": 378.2367764161834
         },
+        "Phases/K.Rool Ship.md": {
+          "x": 1218.8854925138482,
+          "y": -548.5661672952274
+        },
         "Phases/Kutout.md": {
           "x": 1096.3883088073526,
           "y": 374.2345662529624
@@ -588,6 +1066,10 @@
         "Phases/Pufftoss.md": {
           "x": 654.1019833130295,
           "y": 382.2389865794046
+        },
+        "Phases/Rabbit.md": {
+          "x": 660.6450664748586,
+          "y": 547.6589967728803
         },
         "Phases/Tiny Phase.md": {
           "x": 1065.683410801707,
@@ -677,17 +1159,809 @@
           "x": -81.57540688787185,
           "y": -167.2764861548918
         },
-        "Phases/Rabbit.md": {
-          "x": 660.6450664748586,
-          "y": 547.6589967728803
+        "Levels/0_DK Isles/Training Ground/DK's Treehouse Entrance.md": {
+          "x": -12906.609904516823,
+          "y": -2253.6058481508917
         },
-        "Phases/Beanstalk.md": {
-          "x": 806.1442775437267,
-          "y": 543.7269599999988
+        "Levels/0_DK Isles/Training Ground/DK's Treehouse Exit.md": {
+          "x": -12909.459334365876,
+          "y": -1971.4939452478743
         },
-        "Phases/K.Rool Ship.md": {
-          "x": 1218.8854925138482,
-          "y": -548.5661672952274
+        "Levels/0_DK Isles/Training Ground/Training Ground Exit.md": {
+          "x": -12897.703008643584,
+          "y": -2503.749988911254
+        },
+        "Levels/0_DK Isles/DK Isles/Training Ground Entrance.md": {
+          "x": -12903.76009362607,
+          "y": -2789.33354929921
+        },
+        "Levels/0_DK Isles/DK Isles/Banana Fairy Entrance.md": {
+          "x": -12271.124127225721,
+          "y": -2815.188791095078
+        },
+        "Levels/0_DK Isles/Level Lobby/Aztec Lobby Entrance.md": {
+          "x": -10632.911982903948,
+          "y": -2486.251607905565
+        },
+        "Levels/0_DK Isles/Level Lobby/Caves Lobby Entrance.md": {
+          "x": -10650.738263637038,
+          "y": -1092.182861694011
+        },
+        "Levels/0_DK Isles/Level Lobby/Forest Lobby Entrance.md": {
+          "x": -10647.17262608782,
+          "y": -1434.4606601181627
+        },
+        "Levels/0_DK Isles/Level Lobby/Japes Lobby Entrance.md": {
+          "x": -10626.021447852598,
+          "y": -2853.112810936128
+        },
+        "Levels/0_DK Isles/DK Isles/Snide Hideout Entrance.md": {
+          "x": -12267.622911454553,
+          "y": -2216.44199580592
+        },
+        "Levels/0_DK Isles/DK Isles/K. Lumsy Room Entrance.md": {
+          "x": -11734.182584794358,
+          "y": -2821.8902757852247
+        },
+        "Levels/0_DK Isles/DK Isles/Banana Fairy Exit.md": {
+          "x": -12271.124127225721,
+          "y": -2507.0617114031184
+        },
+        "Levels/0_DK Isles/DK Isles/K. Lumsy Room Exit.md": {
+          "x": -11730.681369023188,
+          "y": -2503.2588478690695
+        },
+        "Levels/0_DK Isles/DK Isles/Snide Hideout Exit.md": {
+          "x": -12267.622911454553,
+          "y": -1953.8336413643656
+        },
+        "Levels/0_DK Isles/Level Lobby/Factory Lobby Entrance.md": {
+          "x": -10650.738263637038,
+          "y": -2147.5392081813434
+        },
+        "Levels/0_DK Isles/Level Lobby/Galleon Lobby Entrance.md": {
+          "x": -10657.868585228975,
+          "y": -1780.3037380499632
+        },
+        "Levels/0_DK Isles/Level Lobby/Castle Lobby Entrance.md": {
+          "x": -10650.738263637038,
+          "y": -692.8589224555421
+        },
+        "Levels/0_DK Isles/Level Lobby/Helm Lobby Entrance.md": {
+          "x": -10661.43374602494,
+          "y": -318.49265492430186
+        },
+        "Levels/0_DK Isles/Level Lobby/Aztec Lobby Exit.md": {
+          "x": -10087.424741250627,
+          "y": -2500.513083513004
+        },
+        "Levels/0_DK Isles/Level Lobby/Aztec Level Entrance.md": {
+          "x": -9588.286496957884,
+          "y": -2475.5554118057753
+        },
+        "Levels/0_DK Isles/Level Lobby/Castle Lobby Exit.md": {
+          "x": -10108.816659532931,
+          "y": -710.6857967629112
+        },
+        "Levels/0_DK Isles/Level Lobby/Castle Level Entrance.md": {
+          "x": -9516.980897272277,
+          "y": -721.3818736704197
+        },
+        "Levels/0_DK Isles/Level Lobby/Caves Lobby Exit.md": {
+          "x": -10108.816659532931,
+          "y": -1095.74814120166
+        },
+        "Levels/0_DK Isles/Level Lobby/Caves Level Entrance.md": {
+          "x": -9538.372338801335,
+          "y": -1110.0097360013797
+        },
+        "Levels/0_DK Isles/Level Lobby/Factory Lobby Exit.md": {
+          "x": -10101.685861187747,
+          "y": -2161.8008029810635
+        },
+        "Levels/0_DK Isles/Level Lobby/Factory Level Entrance.md": {
+          "x": -9570.460216224794,
+          "y": -2154.6700055812034
+        },
+        "Levels/0_DK Isles/Level Lobby/Forest Lobby Exit.md": {
+          "x": -10101.685861187747,
+          "y": -1455.853052317742
+        },
+        "Levels/0_DK Isles/Level Lobby/Forest Level Entrance.md": {
+          "x": -9541.937976350551,
+          "y": -1470.114647117462
+        },
+        "Levels/0_DK Isles/Level Lobby/Galleon Lobby Exit.md": {
+          "x": -10098.120700391779,
+          "y": -1798.130612357332
+        },
+        "Levels/0_DK Isles/Level Lobby/Galleon Level Entrance.md": {
+          "x": -9545.50313714652,
+          "y": -1801.6961302495429
+        },
+        "Levels/0_DK Isles/Level Lobby/Helm Lobby Exit.md": {
+          "x": -10112.3818203289,
+          "y": -336.3195292316709
+        },
+        "Levels/0_DK Isles/Level Lobby/Helm Level Entrance.md": {
+          "x": -9509.850098927092,
+          "y": -322.05793443195125
+        },
+        "Levels/0_DK Isles/Level Lobby/Japes Lobby Exit.md": {
+          "x": -10098.120700391779,
+          "y": -2846.3562806370855
+        },
+        "Levels/0_DK Isles/Level Lobby/Japes Level Entrance.md": {
+          "x": -9598.981979345786,
+          "y": -2846.3562806370855
+        },
+        "Levels/1_Jungle Japes/Japes Level Exit.md": {
+          "x": -8252.729602536172,
+          "y": -2889.418768223422
+        },
+        "Levels/1_Jungle Japes/Diddy Mountain Entrance.md": {
+          "x": -8248.537153278381,
+          "y": -2509.278740532332
+        },
+        "Levels/1_Jungle Japes/Diddy Mountain Exit.md": {
+          "x": -7742.268110640454,
+          "y": -2512.844139232262
+        },
+        "Levels/1_Jungle Japes/Painting Room Entrance.md": {
+          "x": -8252.102790827597,
+          "y": -2163.435662600531
+        },
+        "Levels/1_Jungle Japes/Painting Room Exit.md": {
+          "x": -7735.137789048518,
+          "y": -2184.828054800111
+        },
+        "Levels/1_Jungle Japes/Japes Underground Entrance.md": {
+          "x": -8244.971992482413,
+          "y": -1771.2424015696415
+        },
+        "Levels/1_Jungle Japes/Japes Underground Exit.md": {
+          "x": -7717.311508315428,
+          "y": -1774.8079194618522
+        },
+        "Levels/1_Jungle Japes/Beehive Entrance.md": {
+          "x": -8244.971992482413,
+          "y": -1364.7876649313125
+        },
+        "Levels/1_Jungle Japes/Beehive Exit.md": {
+          "x": -7713.74634751946,
+          "y": -1396.8761340384017
+        },
+        "Levels/2_Angry Aztec/Aztec Level Exit.md": {
+          "x": -5867.962671066487,
+          "y": -2950.4713066147106
+        },
+        "Levels/2_Angry Aztec/Tiny Temple Entrance.md": {
+          "x": -5859.253547161715,
+          "y": -2587.583686966401
+        },
+        "Levels/2_Angry Aztec/Tiny Temple Exit.md": {
+          "x": -5464.444717866687,
+          "y": -2593.389898197731
+        },
+        "Levels/2_Angry Aztec/Llama Temple Entrance.md": {
+          "x": -5865.059370969149,
+          "y": -2262.436440321737
+        },
+        "Levels/2_Angry Aztec/Llama Temple Exit.md": {
+          "x": -5447.026858250763,
+          "y": -2274.0487657327603
+        },
+        "Levels/2_Angry Aztec/5 Door Temple/DK 5DT Entrance.md": {
+          "x": -5879.574706874977,
+          "y": -1594.7231192351453
+        },
+        "Levels/2_Angry Aztec/5 Door Temple/DK 5DT Exit.md": {
+          "x": -5401.369990489569,
+          "y": -1600.5293304664747
+        },
+        "Levels/2_Angry Aztec/5 Door Temple/Diddy 5DT Exit.md": {
+          "x": -5883.268506057838,
+          "y": -1243.4478249978588
+        },
+        "Levels/2_Angry Aztec/5 Door Temple/Diddy 5DT Entrance.md": {
+          "x": -5395.563778488513,
+          "y": -1260.8666527951223
+        },
+        "Levels/2_Angry Aztec/5 Door Temple/Lanky 5DT Entrance.md": {
+          "x": -5897.783453770044,
+          "y": -912.4943671218643
+        },
+        "Levels/2_Angry Aztec/5 Door Temple/Lanky 5DT Exit.md": {
+          "x": -5389.757954681079,
+          "y": -924.1067895845249
+        },
+        "Levels/2_Angry Aztec/5 Door Temple/Tiny 5DT Entrance.md": {
+          "x": -5894.880541866327,
+          "y": -558.3162584238235
+        },
+        "Levels/2_Angry Aztec/5 Door Temple/Tiny 5DT Exit.md": {
+          "x": -5375.24261877525,
+          "y": -578.6377065785687
+        },
+        "Levels/2_Angry Aztec/5 Door Temple/Chunky 5DT Entrance.md": {
+          "x": -5891.977629962609,
+          "y": -218.65338664919818
+        },
+        "Levels/2_Angry Aztec/5 Door Temple/Chunky 5DT Exit.md": {
+          "x": -5372.339706871533,
+          "y": -230.26580911185783
+        },
+        "Levels/2_Angry Aztec/Aztec Beetle Race Entrance.md": {
+          "x": -5873.768494873922,
+          "y": -1931.4827883424696
+        },
+        "Levels/1_Jungle Japes/Japes Minecart Exit.md": {
+          "x": -6776.079022725179,
+          "y": -2527.105734031982
+        },
+        "Levels/5_Fungi Forest/Forest Minecart Exit.md": {
+          "x": -12976.39409991101,
+          "y": 2661.503627030797
+        },
+        "Levels/2_Angry Aztec/Aztec Beetle Race Exit.md": {
+          "x": -5415.09366272901,
+          "y": -1945.9984134724316
+        },
+        "Levels/3_Frantic Factory/Factory Level Exit.md": {
+          "x": -4383.99644005399,
+          "y": -2987.133612567608
+        },
+        "Levels/3_Frantic Factory/Crusher Room Entrance.md": {
+          "x": -4301.928266733983,
+          "y": -1656.1615778038572
+        },
+        "Levels/3_Frantic Factory/Crusher Room Exit.md": {
+          "x": -3709.6122000799287,
+          "y": -1656.1615778032342
+        },
+        "Levels/3_Frantic Factory/Power Shed Entrance.md": {
+          "x": -4326.905619860104,
+          "y": -2055.810029668878
+        },
+        "Levels/3_Frantic Factory/Power Shed Exit.md": {
+          "x": -3748.8617811078175,
+          "y": -2059.3783247430847
+        },
+        "Levels/3_Frantic Factory/Factory Car Race Entrance.md": {
+          "x": -4341.178324908576,
+          "y": -2516.1193785069327
+        },
+        "Levels/3_Frantic Factory/Factory Car Race Exit.md": {
+          "x": -3738.1576101768705,
+          "y": -2530.39255880376
+        },
+        "Levels/7_Creepy Castle/Castle Rooms/Castle Car Race Entrance.md": {
+          "x": -2321.8407806635287,
+          "y": 5401.943922674217
+        },
+        "Levels/7_Creepy Castle/Castle Rooms/Castle Car Race Exit.md": {
+          "x": -1797.4812447002532,
+          "y": 5398.376607294635
+        },
+        "Levels/4_Gloomy Galleon/2 Door Ship/Tiny 2DS Entrance.md": {
+          "x": -1452.739523233714,
+          "y": -517.3679151593851
+        },
+        "Levels/4_Gloomy Galleon/2 Door Ship/Tiny 2DS Exit.md": {
+          "x": -824.9486629056128,
+          "y": -534.5682768540914
+        },
+        "Levels/4_Gloomy Galleon/2 Door Ship/Lanky 2DS Entrance.md": {
+          "x": -1457.0399017243417,
+          "y": -857.0743398636782
+        },
+        "Levels/4_Gloomy Galleon/2 Door Ship/Lanky 2DS Exit.md": {
+          "x": -829.2484664024587,
+          "y": -887.1751165826472
+        },
+        "Levels/4_Gloomy Galleon/5 Door Ship/DK 5DS Entrance.md": {
+          "x": -2618.6432267072814,
+          "y": -1429.0408106048615
+        },
+        "Levels/4_Gloomy Galleon/5 Door Ship/DK 5DS Exit.md": {
+          "x": -2093.6655907982467,
+          "y": -1434.129064749086
+        },
+        "Levels/4_Gloomy Galleon/5 Door Ship/Diddy 5DS Entrance.md": {
+          "x": -2621.0079566837326,
+          "y": -1140.544266045109
+        },
+        "Levels/4_Gloomy Galleon/5 Door Ship/Lanky 5DS Entrance.md": {
+          "x": -2609.424038481112,
+          "y": -831.2740848280828
+        },
+        "Levels/4_Gloomy Galleon/5 Door Ship/Tiny 5DS Entrance.md": {
+          "x": -2622.3234489716506,
+          "y": -534.5682768540914
+        },
+        "Levels/4_Gloomy Galleon/5 Door Ship/Chunky 5DS Entrance.md": {
+          "x": -2618.023645474804,
+          "y": -169.06102210127438
+        },
+        "Levels/4_Gloomy Galleon/5 Door Ship/Diddy 5DS Exit.md": {
+          "x": -2089.1311405430706,
+          "y": -1140.8800203198716
+        },
+        "Levels/4_Gloomy Galleon/5 Door Ship/Chunky 5DS Exit.md": {
+          "x": -2054.7315625807387,
+          "y": -160.46084125392144
+        },
+        "Levels/4_Gloomy Galleon/5 Door Ship/Lanky 5DS Exit.md": {
+          "x": -2076.231155058751,
+          "y": -809.7734889564681
+        },
+        "Levels/4_Gloomy Galleon/5 Door Ship/Tiny 5DS Exit.md": {
+          "x": -2076.231155058751,
+          "y": -517.3679151593851
+        },
+        "Levels/4_Gloomy Galleon/Shipyard Outskirts/Tiny Submarine Entrance.md": {
+          "x": -2007.4319991340872,
+          "y": 1163.9649966932316
+        },
+        "Levels/4_Gloomy Galleon/Shipyard Outskirts/Tiny Submarine Exit.md": {
+          "x": -2609.423463487331,
+          "y": 1168.2649433636766
+        },
+        "Levels/4_Gloomy Galleon/Shipyard Outskirts/Tiny Chest Entrance.md": {
+          "x": -2609.423463487331,
+          "y": 789.8575610930625
+        },
+        "Levels/4_Gloomy Galleon/Shipyard Outskirts/Tiny Chest Exit.md": {
+          "x": -2037.5311986057923,
+          "y": 768.3572527279107
+        },
+        "Levels/4_Gloomy Galleon/Shipyard Outskirts/Seal Race Entrance.md": {
+          "x": -1388.2407457996778,
+          "y": 291.0479344659652
+        },
+        "Levels/4_Gloomy Galleon/Shipyard Outskirts/Seal Race Exit.md": {
+          "x": -773.3492959621144,
+          "y": 265.2473919239055
+        },
+        "Levels/4_Gloomy Galleon/Lighthouse Area/Lighthouse Entrance.md": {
+          "x": -2626.857899226824,
+          "y": -2702.653583435212
+        },
+        "Levels/4_Gloomy Galleon/Lighthouse Area/Lighthouse Exit.md": {
+          "x": -2110.8653797794104,
+          "y": -2719.8539451299184
+        },
+        "Levels/4_Gloomy Galleon/Lighthouse Area/Mermaid Entrance.md": {
+          "x": -2631.1582777174513,
+          "y": -1958.7392339182434
+        },
+        "Levels/4_Gloomy Galleon/Lighthouse Area/Mermaid Exit.md": {
+          "x": -2110.8653797794104,
+          "y": -1963.039180588688
+        },
+        "Levels/4_Gloomy Galleon/Shipyard Outskirts/Mechfish Entrance.md": {
+          "x": -2605.1236599904846,
+          "y": 329.7486045258229
+        },
+        "Levels/4_Gloomy Galleon/Shipyard Outskirts/Mechfish Exit.md": {
+          "x": -2041.831577096419,
+          "y": 325.44865785537786
+        },
+        "Levels/4_Gloomy Galleon/Lighthouse Area/Chunky Ship Entrance.md": {
+          "x": -2613.9584887362857,
+          "y": -2337.146616188859
+        },
+        "Levels/4_Gloomy Galleon/Lighthouse Area/Chunky Ship Exit.md": {
+          "x": -2089.365787301397,
+          "y": -2345.746797036212
+        },
+        "Levels/5_Fungi Forest/Forest Minecart Entrance.md": {
+          "x": -13526.673067754857,
+          "y": 2667.1243943427585
+        },
+        "Levels/1_Jungle Japes/Japes Minecart Entrance.md": {
+          "x": -7257.390986284833,
+          "y": -2519.974936632122
+        },
+        "Levels/5_Fungi Forest/Mills Area/Mills Front Entrance.md": {
+          "x": -11983.654566498144,
+          "y": 2236.7047789641233
+        },
+        "Levels/5_Fungi Forest/Mills Area/Mills Front Exit.md": {
+          "x": -11502.343094479813,
+          "y": 2218.8778036703457
+        },
+        "Levels/5_Fungi Forest/Mills Area/Mills Front Connector Entrance.md": {
+          "x": -11980.089409343109,
+          "y": 2586.1128987613743
+        },
+        "Levels/5_Fungi Forest/Mills Area/Mills Back Connector Entrance.md": {
+          "x": -11491.647146261941,
+          "y": 2582.5475037026185
+        },
+        "Levels/5_Fungi Forest/Mills Area/Mills Tiny Entrance.md": {
+          "x": -11937.306093224382,
+          "y": 3395.4563851772978
+        },
+        "Levels/5_Fungi Forest/Mills Area/Mills Tiny Exit.md": {
+          "x": -11455.99462120605,
+          "y": 3381.194804942276
+        },
+        "Levels/5_Fungi Forest/Mills Area/Mills Back Entrance.md": {
+          "x": -11930.175778914308,
+          "y": 3748.4299000333035
+        },
+        "Levels/5_Fungi Forest/Mills Area/Mills Back Exit.md": {
+          "x": -11459.559778361087,
+          "y": 3734.1683197982807
+        },
+        "Levels/5_Fungi Forest/Mills Area/Spider Boss Entrance.md": {
+          "x": -11958.697989660126,
+          "y": 3006.828919733736
+        },
+        "Levels/5_Fungi Forest/Mills Area/Spider Boss Exit.md": {
+          "x": -11480.95167479683,
+          "y": 3010.3941956003323
+        },
+        "Levels/5_Fungi Forest/Mills Area/Mills Attic Entrance.md": {
+          "x": -11894.522777105656,
+          "y": 4661.16960476882
+        },
+        "Levels/5_Fungi Forest/Mills Area/Mills Attic Exit.md": {
+          "x": -11409.646147932288,
+          "y": 4646.908024533797
+        },
+        "Levels/5_Fungi Forest/Mills Area/Winch Room Entrance.md": {
+          "x": -11880.261671732747,
+          "y": 4311.761365779412
+        },
+        "Levels/5_Fungi Forest/Mills Area/Winch Room Exit.md": {
+          "x": -11420.34209615016,
+          "y": 4311.761365779412
+        },
+        "Levels/5_Fungi Forest/Mills Area/Rafters Entrance.md": {
+          "x": -11890.957619950621,
+          "y": 5067.623926314001
+        },
+        "Levels/5_Fungi Forest/Mills Area/Rafters Exit.md": {
+          "x": -11406.080990777251,
+          "y": 5046.231794345786
+        },
+        "Levels/5_Fungi Forest/Tiny Anthill Entrance.md": {
+          "x": -13522.293857270248,
+          "y": 3052.5200472158917
+        },
+        "Levels/5_Fungi Forest/Tiny Anthill Exit.md": {
+          "x": -12960.538615907715,
+          "y": 3035.351841819463
+        },
+        "Levels/5_Fungi Forest/Mushroom Area/Mushroom Bottom Entrance.md": {
+          "x": -13527.41695853988,
+          "y": 3705.6451593282377
+        },
+        "Levels/5_Fungi Forest/Mushroom Area/Mushroom Bottom Exit.md": {
+          "x": -12914.190381010334,
+          "y": 3694.9488549598113
+        },
+        "Levels/5_Fungi Forest/Mushroom Area/Mushroom Middle Low Entrance.md": {
+          "x": -13527.41695853988,
+          "y": 4072.8802544192663
+        },
+        "Levels/5_Fungi Forest/Mushroom Area/Mushroom Middle Low Exit.md": {
+          "x": -12903.494432792462,
+          "y": 4083.5763204033733
+        },
+        "Levels/5_Fungi Forest/Mushroom Area/Mushroom Middle High Entrance.md": {
+          "x": -13534.547272849954,
+          "y": 4507.857736434491
+        },
+        "Levels/5_Fungi Forest/Mushroom Area/Mushroom Middle High Exit.md": {
+          "x": -12899.929275637425,
+          "y": 4514.988526552002
+        },
+        "Levels/5_Fungi Forest/Mushroom Area/Mushroom Night Door Entrance.md": {
+          "x": -13523.85132463208,
+          "y": 4925.008362348099
+        },
+        "Levels/5_Fungi Forest/Mushroom Area/Mushroom Night Door Exit.md": {
+          "x": -12892.798484574589,
+          "y": 4925.008362348099
+        },
+        "Levels/5_Fungi Forest/Mushroom Area/Mushroom Top Entrance.md": {
+          "x": -13516.721010322008,
+          "y": 5306.505037674149
+        },
+        "Levels/5_Fungi Forest/Mushroom Area/Mushroom Top Exit.md": {
+          "x": -12885.668170264516,
+          "y": 5310.070313540746
+        },
+        "Levels/5_Fungi Forest/Mushroom Area/Lanky Zinger Entrance.md": {
+          "x": -13451.423848205559,
+          "y": 6247.03034801349
+        },
+        "Levels/5_Fungi Forest/Mushroom Area/Lanky Zinger Exit.md": {
+          "x": -12866.719481421831,
+          "y": 6257.726652381916
+        },
+        "Levels/5_Fungi Forest/Mushroom Area/Lanky Colored Mushroom Entrance.md": {
+          "x": -13440.72837674045,
+          "y": 6624.9615090886255
+        },
+        "Levels/5_Fungi Forest/Mushroom Area/Lanky Colored Mushroom Exit.md": {
+          "x": -12845.328061738848,
+          "y": 6589.307796885389
+        },
+        "Levels/5_Fungi Forest/Mushroom Area/Chunky Face Entrance.md": {
+          "x": -13476.38090179634,
+          "y": 5804.922075880753
+        },
+        "Levels/5_Fungi Forest/Mushroom Area/Chunky Face Exit.md": {
+          "x": -12884.546220702538,
+          "y": 5790.660495645732
+        },
+        "Levels/5_Fungi Forest/Mills Area/Thornvine Barn Entrance.md": {
+          "x": -11901.65356816849,
+          "y": 5516.862988564248
+        },
+        "Levels/5_Fungi Forest/Mills Area/Thornvine Barn Exit.md": {
+          "x": -11391.819885404344,
+          "y": 5506.166684195821
+        },
+        "Levels/6_Crystal Caves/5 Door Cabin/Donkey 5DC Entrance.md": {
+          "x": -8028.779594502654,
+          "y": 2571.141902364205
+        },
+        "Levels/6_Crystal Caves/5 Door Cabin/Diddy 5DC Lower Entrance.md": {
+          "x": -8025.210863078719,
+          "y": 2942.3141406871882
+        },
+        "Levels/6_Crystal Caves/5 Door Cabin/Diddy 5DC Upper Entrance.md": {
+          "x": -8028.779594502654,
+          "y": 3302.779589623329
+        },
+        "Levels/6_Crystal Caves/5 Door Cabin/Tiny 5DC Entrance.md": {
+          "x": -8021.642131654784,
+          "y": 3698.934614909473
+        },
+        "Levels/6_Crystal Caves/5 Door Cabin/Chunky 5DC Entrance.md": {
+          "x": -8021.642131654784,
+          "y": 4123.641158101634
+        },
+        "Levels/6_Crystal Caves/5 Door Cabin/Chunky 5DC Exit.md": {
+          "x": -7464.902371983744,
+          "y": 4130.779097233966
+        },
+        "Levels/6_Crystal Caves/5 Door Cabin/Diddy 5DC Lower Exit.md": {
+          "x": -7522.003506458909,
+          "y": 2949.45207981952
+        },
+        "Levels/6_Crystal Caves/5 Door Cabin/Diddy 5DC Upper Exit.md": {
+          "x": -7497.021909260629,
+          "y": 3306.348439877839
+        },
+        "Levels/6_Crystal Caves/5 Door Cabin/Donkey 5DC Exit.md": {
+          "x": -7522.003506458909,
+          "y": 2574.7108719303715
+        },
+        "Levels/6_Crystal Caves/5 Door Cabin/Tiny 5DC Exit.md": {
+          "x": -7489.883969182025,
+          "y": 3702.5034651639835
+        },
+        "Levels/6_Crystal Caves/Cabin Area/Donkey Rotating Cabin Entrance.md": {
+          "x": -6626.223762437884,
+          "y": 2574.7108719303715
+        },
+        "Levels/6_Crystal Caves/Cabin Area/Donkey Rotating Cabin Exit.md": {
+          "x": -6048.070659761766,
+          "y": 2588.9867501950353
+        },
+        "Levels/6_Crystal Caves/Cabin Area/Lanky Sprint Cabin Entrance.md": {
+          "x": -6640.498688133625,
+          "y": 2992.279595301856
+        },
+        "Levels/6_Crystal Caves/Cabin Area/Lanky Sprint Cabin Exit.md": {
+          "x": -6051.639391185702,
+          "y": 2995.8485648680216
+        },
+        "Levels/5_Fungi Forest/Forest Level Exit.md": {
+          "x": -13523.581186066134,
+          "y": 2237.390198343232
+        },
+        "Levels/4_Gloomy Galleon/Galleon Level Exit.md": {
+          "x": -2623.8049123242495,
+          "y": -3056.9507967166737
+        },
+        "Levels/6_Crystal Caves/Caves Level Exit.md": {
+          "x": -9690.61123516049,
+          "y": 2134.286497327829
+        },
+        "Levels/7_Creepy Castle/Castle Level Exit.md": {
+          "x": -3626.395586898857,
+          "y": 1989.5605110892975
+        },
+        "Levels/6_Crystal Caves/Caves Main Area/Lanky Ice Castle Entrance.md": {
+          "x": -9694.993122241833,
+          "y": 2550.592815975044
+        },
+        "Levels/6_Crystal Caves/Caves Main Area/Lanky Ice Castle Exit.md": {
+          "x": -9142.857770879002,
+          "y": 2541.828457003787
+        },
+        "Levels/6_Crystal Caves/Caves Main Area/Caves Beetle Race Entrance.md": {
+          "x": -9690.61123516049,
+          "y": 2940.6062042059825
+        },
+        "Levels/6_Crystal Caves/Caves Main Area/Caves Beetle Race Exit.md": {
+          "x": -9116.565862420492,
+          "y": 2940.6062042059825
+        },
+        "Levels/6_Crystal Caves/5 Door Igloo/Donkey 5DI Entrance.md": {
+          "x": -9706.13705220974,
+          "y": 3506.2104969598213
+        },
+        "Levels/6_Crystal Caves/5 Door Igloo/Diddy 5DI Entrance.md": {
+          "x": -9702.568082170439,
+          "y": 3863.1069763297965
+        },
+        "Levels/6_Crystal Caves/5 Door Igloo/Lanky 5DI Entrance.md": {
+          "x": -9702.568082170439,
+          "y": 4223.572305954282
+        },
+        "Levels/6_Crystal Caves/5 Door Igloo/Tiny 5DI Entrance.md": {
+          "x": -9684.72394782003,
+          "y": 4587.606724456588
+        },
+        "Levels/6_Crystal Caves/5 Door Igloo/Chunky 5DI Entrance.md": {
+          "x": -9670.448544893554,
+          "y": 4948.0720540810735
+        },
+        "Levels/6_Crystal Caves/5 Door Igloo/Chunky 5DI Exit.md": {
+          "x": -9088.726710793502,
+          "y": 4926.658236684078
+        },
+        "Levels/6_Crystal Caves/5 Door Igloo/Diddy 5DI Exit.md": {
+          "x": -9103.002113719976,
+          "y": 3855.969037197465
+        },
+        "Levels/6_Crystal Caves/5 Door Igloo/Donkey 5DI Exit.md": {
+          "x": -9110.139815183215,
+          "y": 3495.5037075729797
+        },
+        "Levels/6_Crystal Caves/5 Door Igloo/Lanky 5DI Exit.md": {
+          "x": -9095.864412256738,
+          "y": 4212.865277944127
+        },
+        "Levels/6_Crystal Caves/5 Door Igloo/Tiny 5DI Exit.md": {
+          "x": -9085.157979369567,
+          "y": 4551.917028794928
+        },
+        "Levels/7_Creepy Castle/Castle Surroundings/Castle Tree Entrance.md": {
+          "x": -3618.4239015800895,
+          "y": 2603.4204414219357
+        },
+        "Levels/7_Creepy Castle/Castle Surroundings/Castle Tree Exit.md": {
+          "x": -2995.6769895806688,
+          "y": 2625.032031110535
+        },
+        "Levels/7_Creepy Castle/Castle Surroundings/Tiny Trashcan Entrance.md": {
+          "x": -3605.6463819850974,
+          "y": 3370.574709921908
+        },
+        "Levels/7_Creepy Castle/Castle Surroundings/Tiny Trashcan Exit.md": {
+          "x": -2970.7078058638613,
+          "y": 3363.4403176674823
+        },
+        "Levels/7_Creepy Castle/Castle Surroundings/Lanky Greenhouse Entrance.md": {
+          "x": -3619.9146913919562,
+          "y": 2996.0198320787995
+        },
+        "Levels/7_Creepy Castle/Castle Surroundings/Lanky Greenhouse Exit.md": {
+          "x": -2974.274763967178,
+          "y": 2978.1838514427363
+        },
+        "Levels/7_Creepy Castle/Castle Surroundings/Chunky Shed Entrance.md": {
+          "x": -3591.378072578238,
+          "y": 3741.562630142542
+        },
+        "Levels/7_Creepy Castle/Castle Surroundings/Chunky Shed Exit.md": {
+          "x": -2963.573412663635,
+          "y": 3730.861161013274
+        },
+        "Levels/7_Creepy Castle/Castle Rooms/Lanky Tower Entrance.md": {
+          "x": -3562.2341879100295,
+          "y": 5038.505654874632
+        },
+        "Levels/7_Creepy Castle/Castle Rooms/Lanky Tower Exit.md": {
+          "x": -2909.4598672850234,
+          "y": 5017.102478111356
+        },
+        "Levels/7_Creepy Castle/Castle Rooms/Diddy Ballroom Entrance.md": {
+          "x": -3573.542805068063,
+          "y": 4665.464876809807
+        },
+        "Levels/7_Creepy Castle/Castle Rooms/Diddy Ballroom Exit.md": {
+          "x": -2910.0671331395147,
+          "y": 4654.763407680539
+        },
+        "Levels/7_Creepy Castle/Castle Rooms/Tiny Ballroom Entrance.md": {
+          "x": -3558.6672298067133,
+          "y": 5423.762121099378
+        },
+        "Levels/7_Creepy Castle/Castle Rooms/Tiny Ballroom Exit.md": {
+          "x": -2898.7589929750757,
+          "y": 5409.493336590527
+        },
+        "Levels/7_Creepy Castle/Castle Rooms/DK Library Entrance.md": {
+          "x": -3584.243679378011,
+          "y": 4312.313056477605
+        },
+        "Levels/7_Creepy Castle/Castle Rooms/DK Library Exit.md": {
+          "x": -2920.768484443058,
+          "y": 4323.014525606874
+        },
+        "Levels/7_Creepy Castle/Castle Rooms/Chunky Museum Entrance.md": {
+          "x": -3555.099794709802,
+          "y": 5830.422002592137
+        },
+        "Levels/7_Creepy Castle/Castle Rooms/Chunky Museum Exit.md": {
+          "x": -2898.7589929750757,
+          "y": 5819.720294958131
+        },
+        "Levels/7_Creepy Castle/Underground Lower/Castle Minecart Entrance.md": {
+          "x": 1288.5065146176548,
+          "y": 3029.811914716737
+        },
+        "Levels/7_Creepy Castle/Underground Lower/Castle Minecart Exit.md": {
+          "x": 1923.8676416347134,
+          "y": 3029.811914716737
+        },
+        "Levels/7_Creepy Castle/Underground Upper/Dungeon Entrance.md": {
+          "x": -1686.7345829670094,
+          "y": 3139.3604175189325
+        },
+        "Levels/7_Creepy Castle/Underground Upper/Dungeon Exit.md": {
+          "x": -1033.8468181812186,
+          "y": 3139.3604175189325
+        },
+        "Levels/7_Creepy Castle/Underground Lower/Crypt Entrance.md": {
+          "x": 48.45763449886363,
+          "y": 3069.249334708361
+        },
+        "Levels/7_Creepy Castle/Underground Lower/Crypt Exit.md": {
+          "x": 657.5276329827939,
+          "y": 3047.339575551969
+        },
+        "Levels/7_Creepy Castle/Underground Lower/Mausoleum Entrance.md": {
+          "x": 79.13042247417616,
+          "y": 3533.7354963744565
+        },
+        "Levels/7_Creepy Castle/Underground Lower/Mausoleum Exit.md": {
+          "x": 714.4909635512186,
+          "y": 3542.4994000370125
+        },
+        "Levels/7_Creepy Castle/Underground Lower/Underground Lower Entrance.md": {
+          "x": 17.784846523552915,
+          "y": 2644.2007395237706
+        },
+        "Levels/7_Creepy Castle/Underground Lower/Underground Lower Exit.md": {
+          "x": 613.7098666809352,
+          "y": 2639.818787692492
+        },
+        "Levels/7_Creepy Castle/Underground Upper/Underground Upper Back Door Entrance.md": {
+          "x": -1669.207359258262,
+          "y": 3555.645255530848
+        },
+        "Levels/7_Creepy Castle/Underground Upper/Underground Upper Back Door Exit.md": {
+          "x": -1007.5562755881074,
+          "y": 3573.173062855961
+        },
+        "Levels/7_Creepy Castle/Underground Upper/Underground Upper Moat Entrance.md": {
+          "x": -1704.261806675756,
+          "y": 2648.582691355049
+        },
+        "Levels/7_Creepy Castle/Underground Upper/Underground Upper Moat Exit.md": {
+          "x": -1025.0829133568377,
+          "y": 2657.346595017606
         }
       },
       "hiddenLegendRows": [
@@ -768,7 +2042,303 @@
         "lineSizeMultiplier": 0.1,
         "nodeSizeMultiplier": 5,
         "showArrow": false,
-        "textFadeMultiplier": 3,
+        "textFadeMultiplier": -3,
+        "centerStrength": 0.697916666666667,
+        "linkDistance": 270,
+        "linkStrength": 1,
+        "repelStrength": 20
+      }
+    },
+    {
+      "id": "3ef24cb9-8c7c-4829-9854-92e83495737c",
+      "name": "Loading Zone Stream Graph",
+      "enableLayers": false,
+      "currentLayerLevel": 0,
+      "toggleTypes": {
+        "tag": [
+          "Army1",
+          "Army2",
+          "Bean",
+          "Beanstalk",
+          "Chunky",
+          "Chunky-Phase",
+          "DK",
+          "DK-Phase",
+          "Diddy",
+          "Diddy-Phase",
+          "Doga1",
+          "Doga2",
+          "Finish",
+          "K-Rool-Ship",
+          "Keys",
+          "Lanky",
+          "Lanky-Phase",
+          "Madjack",
+          "Rabbit",
+          "Shared",
+          "Start",
+          "Tiny",
+          "Tiny-Phase"
+        ],
+        "link": [],
+        "folder": [],
+        "preset": [
+          "Kill the Rabbit",
+          "LZR",
+          "Plant the Bean",
+          "Season 4"
+        ],
+        "types": [
+          "Boss",
+          "Collectable",
+          "Objective",
+          "none"
+        ]
+      },
+      "logicTypes": {
+        "tag": "OR",
+        "link": "OR",
+        "folder": "OR",
+        "tags": "OR",
+        "displayonstream": "OR"
+      },
+      "pinNodes": {
+        "Chunky/Gone.md": {
+          "x": 240.30307310200737,
+          "y": -0.9624011001476447
+        },
+        "Chunky/Hunky.md": {
+          "x": 74.26476432840741,
+          "y": 0.7400399611209423
+        },
+        "Chunky/Pineapple.md": {
+          "x": -414.75094535026165,
+          "y": -14.045414337088232
+        },
+        "Chunky/Punch.md": {
+          "x": -89.63610539905858,
+          "y": 4.77243658790519
+        },
+        "Chunky/Triangle.md": {
+          "x": -256.2238746302536,
+          "y": -4.636488874591464
+        },
+        "DK/Blast.md": {
+          "x": 207.39538030119093,
+          "y": -672.2746359037892
+        },
+        "Diddy/Peanut.md": {
+          "x": -415.1745306159587,
+          "y": -506.59528268681345
+        },
+        "Diddy/Rocket.md": {
+          "x": 74.8024994346531,
+          "y": -510.2064184067364
+        },
+        "Keys/Key 1.md": {
+          "x": 664.5774775848286,
+          "y": -675.204439593219
+        },
+        "Keys/Key 2.md": {
+          "x": 784.5160164388949,
+          "y": -671.2724028203378
+        },
+        "Keys/Key 3.md": {
+          "x": 904.4545552929617,
+          "y": -665.3743476610157
+        },
+        "Keys/Key 4.md": {
+          "x": 1034.2241219219518,
+          "y": -659.4762925016937
+        },
+        "Keys/Key 5.md": {
+          "x": 660.645066474859,
+          "y": -506.1268583593212
+        },
+        "Keys/Key 6.md": {
+          "x": 788.4484275488644,
+          "y": -502.19482158643984
+        },
+        "Keys/Key 7.md": {
+          "x": 910.353171957916,
+          "y": -498.2627848135585
+        },
+        "Keys/Key 8.md": {
+          "x": 1047.9875608068446,
+          "y": -488.43269288135514
+        },
+        "Lanky/Trombone.md": {
+          "x": -241.44592735974436,
+          "y": -335.29301227090446
+        },
+        "Misc/Bean.md": {
+          "x": 660.645066474859,
+          "y": -144.37947525423738
+        },
+        "Phases/Army 1.md": {
+          "x": 792.1913790556009,
+          "y": 212.145054642511
+        },
+        "Phases/Army 2.md": {
+          "x": 952.295026293365,
+          "y": 382.2389865794046
+        },
+        "Phases/Beanstalk.md": {
+          "x": 806.1442775437267,
+          "y": 543.7269599999988
+        },
+        "Phases/Chunky Phase.md": {
+          "x": 650.8140386999357,
+          "y": 211.46985269152492
+        },
+        "Phases/DK Phase.md": {
+          "x": 654.7464498099048,
+          "y": 28.630142752542042
+        },
+        "Phases/Diddy Phase.md": {
+          "x": 796.3132497688034,
+          "y": 26.664124366101305
+        },
+        "Phases/Doga 1.md": {
+          "x": 938.2859571600607,
+          "y": 214.14615972412162
+        },
+        "Phases/Doga 2.md": {
+          "x": 796.1939702365448,
+          "y": 378.2367764161834
+        },
+        "Phases/K.Rool Ship.md": {
+          "x": 1218.8854925138482,
+          "y": -548.5661672952274
+        },
+        "Phases/Lanky Phase.md": {
+          "x": 928.0490219527783,
+          "y": 30.59616113898278
+        },
+        "Phases/Madjack.md": {
+          "x": 1084.3805352645204,
+          "y": 210.1439495609004
+        },
+        "Phases/Rabbit.md": {
+          "x": 660.6450664748586,
+          "y": 547.6589967728803
+        },
+        "Phases/Tiny Phase.md": {
+          "x": 1065.683410801707,
+          "y": 32.56217952542352
+        },
+        "Shared/Barrel Throwing.md": {
+          "x": -268.58951993529445,
+          "y": 360.5004552436849
+        },
+        "Shared/Camera.md": {
+          "x": -427.42187580662426,
+          "y": 170.31884206529185
+        },
+        "Shared/Climbing.md": {
+          "x": 245.7756943730874,
+          "y": 189.84365044067727
+        },
+        "Shared/Simian Slam (Slam 1).md": {
+          "x": 247.797333426686,
+          "y": 355.665707039367
+        },
+        "Tiny/Feather.md": {
+          "x": -418.781294605855,
+          "y": -176.68541161738852
+        },
+        "Tiny/Mini.md": {
+          "x": 67.54751556908491,
+          "y": -151.14689964775454
+        },
+        "Tiny/Sax.md": {
+          "x": -240.1024776078799,
+          "y": -159.21169290132315
+        },
+        "Tiny/Twirl.md": {
+          "x": -81.57540688787185,
+          "y": -167.2764861548918
+        }
+      },
+      "hiddenLegendRows": [
+        "link"
+      ],
+      "collapsedLegendRows": [],
+      "engineOptions": {
+        "colorGroups": [
+          {
+            "query": "tag:#Keys",
+            "color": {
+              "a": 1,
+              "rgb": 14725458
+            }
+          },
+          {
+            "query": "tag:#DK",
+            "color": {
+              "a": 1,
+              "rgb": 10644998
+            }
+          },
+          {
+            "query": "tag:#Diddy",
+            "color": {
+              "a": 1,
+              "rgb": 14701138
+            }
+          },
+          {
+            "query": "tag:#Lanky",
+            "color": {
+              "a": 1,
+              "rgb": 2776774
+            }
+          },
+          {
+            "query": "tag:#Tiny",
+            "color": {
+              "a": 1,
+              "rgb": 8994491
+            }
+          },
+          {
+            "query": "tag:#Chunky",
+            "color": {
+              "a": 1,
+              "rgb": 3735392
+            }
+          },
+          {
+            "query": "tag:#Shared",
+            "color": {
+              "a": 1,
+              "rgb": 11118917
+            }
+          },
+          {
+            "query": "[\"types\":Boss]",
+            "color": {
+              "a": 1,
+              "rgb": 6381921
+            }
+          },
+          {
+            "query": "[\"types\":Collectable]",
+            "color": {
+              "a": 1,
+              "rgb": 14701233
+            }
+          }
+        ],
+        "search": "",
+        "hideUnresolved": false,
+        "showAttachments": false,
+        "showOrphans": false,
+        "showTags": false,
+        "lineSizeMultiplier": 5,
+        "nodeSizeMultiplier": 5,
+        "showArrow": true,
+        "textFadeMultiplier": -3,
         "centerStrength": 0.697916666666667,
         "linkDistance": 270,
         "linkStrength": 1,
@@ -796,7 +2366,7 @@
   "linksColorColormap": "YlOrRd_r",
   "linksColorFunction": "Ocurences",
   "zoomFactor": 2,
-  "maxNodes": 100,
+  "maxNodes": 300,
   "delay": 500,
   "revertAction": false,
   "enableCSS": false,
@@ -915,7 +2485,7 @@
   "horizontalLegend": false,
   "useRadialMenu": false,
   "collapseState": false,
-  "collapseLegend": false,
+  "collapseLegend": true,
   "resetAfterChanges": false,
   "collapsedSettings": {
     "automation": true,
@@ -932,7 +2502,7 @@
     "names": true,
     "zoom": true,
     "display": false,
-    "performances": true,
+    "performances": false,
     "beta": true,
     "layers": true,
     "local-graph": true,
@@ -966,7 +2536,7 @@
         {
           "source": "tag",
           "property": "",
-          "value": "Medal",
+          "value": "Loading-Zones",
           "logic": "contains"
         }
       ]

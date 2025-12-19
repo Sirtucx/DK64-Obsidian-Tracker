@@ -4,33 +4,44 @@
     "type": "split",
     "children": [
       {
-        "id": "1591d23869f569bb",
+        "id": "f828dd3df58fee15",
         "type": "tabs",
         "children": [
           {
-            "id": "96d1a03c40a3fe83",
+            "id": "fc1192b32bfda70a",
             "type": "leaf",
-            "pinned": true,
             "state": {
               "type": "graph",
               "state": {},
-              "pinned": true,
               "icon": "lucide-git-fork",
               "title": "Graph view"
             }
           },
           {
-            "id": "7c7774c5d0b5bf52",
+            "id": "84ce14d2c86d92ad",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "type": "markdown",
+              "state": {
+                "file": "Levels/3_Frantic Factory/Factory Level Exit.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Factory Level Exit"
             }
           }
         ],
-        "currentTab": 1,
         "stacked": true
       }
     ],
@@ -78,8 +89,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "009059ed2372d603",
@@ -143,57 +153,57 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "command-palette:Open command palette": false,
       "graph:Open graph view": false
     }
   },
-  "active": "7c7774c5d0b5bf52",
+  "active": "fc1192b32bfda70a",
   "lastOpenFiles": [
-    "Shared/Camera.md",
-    "Settings/Plant the Bean/Plant-the-Bean-Simian-Slam.bat",
-    "Settings/Plant the Bean/Plant-the-Bean-Key-6.bat",
-    "Settings/Plant the Bean/Plant-the-Bean-Key-2.bat",
-    "Settings/Plant the Bean/Plant-the-Bean-Climbing.bat",
-    "Settings/Plant the Bean/Plant-the-Bean-Camera.bat",
-    "Settings/Plant the Bean/LZR-Key-6.bat",
-    "Settings/Plant the Bean/LZR-Simian-Slam.bat",
-    "Settings/Plant the Bean/LZR-Key-2.bat",
-    "Settings/Plant the Bean/LZR-Climbing.bat",
-    "Settings/Plant the Bean/LZR-Camera.bat",
-    "Keys/Key 2.md",
-    "Start.md",
-    "Settings/_Season 4 Settings.md",
-    "Shared/Simian Slam (Slam 1).md",
-    "Finish.md",
-    "Tiny/Twirl.md",
-    "Tiny/Sax.md",
-    "Tiny/Monkeyport.md",
-    "Tiny/Mini.md",
-    "Tiny/Feather.md",
-    "Shops/Snide.md",
-    "Shops/Funky.md",
-    "Shops/Cranky.md",
-    "Shops/Candy.md",
-    "Shared/Vine Swinging.md",
-    "Shared/Super Simian Slam (Slam 2).md",
-    "Shared/Super Duper Simian Slam (Slam 3).md",
-    "Shared/Sniper Scope.md",
-    "Shared/Shockwave.md",
-    "Shared/Orange Throwing.md",
-    "Shared/Homing Ammo.md",
-    "Shared/Diving.md",
+    "Assets/Levels/4_Gloomy Galleon/Shipyard Outskirts/_Tiny Submarine Exit.png",
+    "Assets/Levels/4_Gloomy Galleon/Shipyard Outskirts/_Tiny Submarine Entrance.png",
+    "Levels/3_Frantic Factory/Factory Level Exit.md",
+    "Assets/Levels/3_Frantic Factory/_Factory Level Exit.png",
+    "Assets/Levels/7_Creepy Castle/Castle Surroundings/_Tiny Trashcan Entrance.png",
+    "Assets/Levels/5_Fungi Forest/Mills Area/_Winch Room Entrance.png",
+    "Levels/0_DK Isles/DK Isles/Training Ground Entrance.md",
+    "Levels/1_Jungle Japes/Beehive Entrance.md",
+    "Levels/0_DK Isles/Training Ground/Training Ground Exit.md",
+    "Levels/0_DK Isles/Level Lobby/Japes Level Entrance.md",
+    "Levels/0_DK Isles/Level Lobby/Japes Lobby Exit.md",
+    "Levels/0_DK Isles/Level Lobby/Japes Lobby Entrance.md",
+    "Levels/0_DK Isles/DK Isles/Banana Fairy Entrance.md",
+    "Levels/0_DK Isles/DK Isles/Banana Fairy Exit.md",
+    "Levels/0_DK Isles/DK Isles/Snide Hideout Entrance.md",
+    "Levels/0_DK Isles/DK Isles/Snide Hideout Exit.md",
+    "Levels/0_DK Isles/DK Isles/K. Lumsy Room Entrance.md",
+    "Levels/0_DK Isles/DK Isles/K. Lumsy Room Exit.md",
+    "Levels/0_DK Isles/Training Ground/DK's Treehouse Exit.md",
+    "Levels/0_DK Isles/Training Ground/DK's Treehouse Entrance.md",
+    "Assets/Levels/0_DK Isles/Level Lobby/_Factory Lobby Entrance.png",
+    "_DK's Treehouse Entrance.md",
+    "Levels/7_Creepy Castle/Castle Rooms/Tiny Ballroom Exit.md",
+    "Levels/7_Creepy Castle/Castle Surroundings/Chunky Shed Exit.md",
+    "Levels/6_Crystal Caves/5 Door Cabin/Donkey 5DC Exit.md",
+    "Levels/4_Gloomy Galleon/Lighthouse Area/Chunky Ship Entrance.md",
+    "Assets/Levels",
     "Shared/Climbing.md",
-    "Shared/Barrel Throwing.md",
+    "Misc/Rareware Coin.md",
+    "Misc/Banana Medal.md",
+    "Lanky/Balloon.md",
+    "Levels/7_Creepy Castle/Underground Upper/Underground Upper Moat Exit.md",
+    "Levels/6_Crystal Caves/5 Door Igloo",
+    "Levels/6_Crystal Caves/Caves Main Area",
+    "Levels/6_Crystal Caves/Cabin Area",
+    "Levels/6_Crystal Caves/5 Door Cabin",
+    "Levels/5_Fungi Forest/Mushroom Area",
+    "Levels/5_Fungi Forest/Mills Area",
+    "Levels/4_Gloomy Galleon/Lighthouse Area",
+    "Levels/4_Gloomy Galleon/Shipyard Outskirts",
+    "Levels/4_Gloomy Galleon/2 Door Ship",
     "Assets/Phases/_Beanstalk.png",
     "Assets/Phases/_Rabbit.png",
     "Assets/Misc/_Finish.png",
     "Assets/Misc/_Start.png",
     "Assets/Phases/_Pufftoss.png",
-    "Assets/Phases/_Madjack.png",
-    "Assets/Phases/_Kutout.png",
-    "Assets/Phases/_Doga2.png",
-    "Assets/Phases/_Doga1.png",
-    "Assets/Phases/_Army2.png",
     "Untitled.canvas",
     "Test.canvas",
     "Mind Map.canvas"
