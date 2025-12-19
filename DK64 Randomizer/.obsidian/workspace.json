@@ -4,41 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "f828dd3df58fee15",
+        "id": "18ee3cfb74a120e8",
         "type": "tabs",
         "children": [
           {
-            "id": "fc1192b32bfda70a",
+            "id": "5b506a58f749d0f0",
             "type": "leaf",
             "state": {
-              "type": "graph",
+              "type": "empty",
               "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
-            }
-          },
-          {
-            "id": "84ce14d2c86d92ad",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Levels/3_Frantic Factory/Factory Level Exit.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
               "icon": "lucide-file",
-              "title": "Factory Level Exit"
+              "title": "New tab"
             }
           }
         ],
@@ -156,40 +132,78 @@
       "graph:Open graph view": false
     }
   },
-  "active": "fc1192b32bfda70a",
+  "floating": {
+    "id": "3fed9fd8bf774d4d",
+    "type": "floating",
+    "children": [
+      {
+        "id": "8b3c53625d064d26",
+        "type": "window",
+        "children": [
+          {
+            "id": "a71ed270e81ef113",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "5c1c6dfb9e277198",
+                "type": "leaf",
+                "state": {
+                  "type": "graph",
+                  "state": {},
+                  "icon": "lucide-git-fork",
+                  "title": "Graph view"
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "vertical",
+        "x": 392,
+        "y": 111,
+        "width": 1952,
+        "height": 1230,
+        "maximize": true,
+        "zoom": 0.5
+      }
+    ]
+  },
+  "active": "5c1c6dfb9e277198",
   "lastOpenFiles": [
+    "Levels/0_DK Isles/Level Lobby/Japes Lobby Entrance.md",
+    "Levels/0_DK Isles/Level Lobby/Helm Lobby Entrance.md",
+    "Levels/0_DK Isles/Level Lobby/Galleon Lobby Entrance.md",
+    "Levels/0_DK Isles/Level Lobby/Forest Lobby Entrance.md",
+    "Levels/0_DK Isles/Level Lobby/Factory Lobby Entrance.md",
+    "Levels/0_DK Isles/Level Lobby/Caves Lobby Entrance.md",
+    "Levels/0_DK Isles/Level Lobby/Castle Lobby Entrance.md",
+    "Levels/0_DK Isles/Level Lobby/Caves Level Entrance.md",
+    "Levels/0_DK Isles/Level Lobby/Castle Level Entrance.md",
+    "Levels/0_DK Isles/Level Lobby/Aztec Lobby Entrance.md",
+    "Levels/0_DK Isles/Level Lobby/Aztec Level Entrance.md",
+    "Levels/0_DK Isles/DK Isles/Training Ground Entrance.md",
+    "Levels/0_DK Isles/DK Isles/Snide Hideout Entrance.md",
+    "Levels/0_DK Isles/DK Isles/K. Lumsy Room Entrance.md",
+    "Levels/0_DK Isles/DK Isles/Banana Fairy Entrance.md",
+    "Levels/0_DK Isles/DK Isles.md",
+    "Assets/Levels/0_DK Isles/DK Isles/_Banana Fairy Entrance.png",
+    "Levels/3_Frantic Factory/Factory Level Exit.md",
+    "Assets/Levels/0_DK Isles/_DK-Isles.png",
     "Assets/Levels/4_Gloomy Galleon/Shipyard Outskirts/_Tiny Submarine Exit.png",
     "Assets/Levels/4_Gloomy Galleon/Shipyard Outskirts/_Tiny Submarine Entrance.png",
-    "Levels/3_Frantic Factory/Factory Level Exit.md",
     "Assets/Levels/3_Frantic Factory/_Factory Level Exit.png",
     "Assets/Levels/7_Creepy Castle/Castle Surroundings/_Tiny Trashcan Entrance.png",
     "Assets/Levels/5_Fungi Forest/Mills Area/_Winch Room Entrance.png",
-    "Levels/0_DK Isles/DK Isles/Training Ground Entrance.md",
     "Levels/1_Jungle Japes/Beehive Entrance.md",
     "Levels/0_DK Isles/Training Ground/Training Ground Exit.md",
     "Levels/0_DK Isles/Level Lobby/Japes Level Entrance.md",
     "Levels/0_DK Isles/Level Lobby/Japes Lobby Exit.md",
-    "Levels/0_DK Isles/Level Lobby/Japes Lobby Entrance.md",
-    "Levels/0_DK Isles/DK Isles/Banana Fairy Entrance.md",
     "Levels/0_DK Isles/DK Isles/Banana Fairy Exit.md",
-    "Levels/0_DK Isles/DK Isles/Snide Hideout Entrance.md",
     "Levels/0_DK Isles/DK Isles/Snide Hideout Exit.md",
-    "Levels/0_DK Isles/DK Isles/K. Lumsy Room Entrance.md",
     "Levels/0_DK Isles/DK Isles/K. Lumsy Room Exit.md",
     "Levels/0_DK Isles/Training Ground/DK's Treehouse Exit.md",
     "Levels/0_DK Isles/Training Ground/DK's Treehouse Entrance.md",
     "Assets/Levels/0_DK Isles/Level Lobby/_Factory Lobby Entrance.png",
-    "_DK's Treehouse Entrance.md",
-    "Levels/7_Creepy Castle/Castle Rooms/Tiny Ballroom Exit.md",
-    "Levels/7_Creepy Castle/Castle Surroundings/Chunky Shed Exit.md",
-    "Levels/6_Crystal Caves/5 Door Cabin/Donkey 5DC Exit.md",
-    "Levels/4_Gloomy Galleon/Lighthouse Area/Chunky Ship Entrance.md",
     "Assets/Levels",
-    "Shared/Climbing.md",
-    "Misc/Rareware Coin.md",
-    "Misc/Banana Medal.md",
-    "Lanky/Balloon.md",
-    "Levels/7_Creepy Castle/Underground Upper/Underground Upper Moat Exit.md",
     "Levels/6_Crystal Caves/5 Door Igloo",
     "Levels/6_Crystal Caves/Caves Main Area",
     "Levels/6_Crystal Caves/Cabin Area",
@@ -201,9 +215,6 @@
     "Levels/4_Gloomy Galleon/2 Door Ship",
     "Assets/Phases/_Beanstalk.png",
     "Assets/Phases/_Rabbit.png",
-    "Assets/Misc/_Finish.png",
-    "Assets/Misc/_Start.png",
-    "Assets/Phases/_Pufftoss.png",
     "Untitled.canvas",
     "Test.canvas",
     "Mind Map.canvas"
