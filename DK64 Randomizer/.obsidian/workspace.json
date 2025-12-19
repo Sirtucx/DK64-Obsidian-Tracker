@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "26476b1efb43d058",
+        "id": "f828dd3df58fee15",
         "type": "tabs",
         "children": [
           {
-            "id": "5b28319a713be018",
+            "id": "fc1192b32bfda70a",
             "type": "leaf",
             "state": {
               "type": "graph",
@@ -18,12 +18,12 @@
             }
           },
           {
-            "id": "0a9530f7e40bc779",
+            "id": "84ce14d2c86d92ad",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Levels/0_DK Isles/Level Lobby/Japes Level Entrance.md",
+                "file": "Levels/3_Frantic Factory/Factory Level Exit.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -38,31 +38,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Japes Level Entrance"
-            }
-          },
-          {
-            "id": "6ebe78e5e019f3c0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Levels/0_DK Isles/Level Lobby/Japes Lobby Entrance.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Japes Lobby Entrance"
+              "title": "Factory Level Exit"
             }
           }
         ],
@@ -180,22 +156,30 @@
       "graph:Open graph view": false
     }
   },
-  "active": "5b28319a713be018",
+  "active": "fc1192b32bfda70a",
   "lastOpenFiles": [
+    "Assets/Levels/4_Gloomy Galleon/Shipyard Outskirts/_Tiny Submarine Exit.png",
+    "Assets/Levels/4_Gloomy Galleon/Shipyard Outskirts/_Tiny Submarine Entrance.png",
+    "Levels/3_Frantic Factory/Factory Level Exit.md",
+    "Assets/Levels/3_Frantic Factory/_Factory Level Exit.png",
+    "Assets/Levels/7_Creepy Castle/Castle Surroundings/_Tiny Trashcan Entrance.png",
+    "Assets/Levels/5_Fungi Forest/Mills Area/_Winch Room Entrance.png",
+    "Levels/0_DK Isles/DK Isles/Training Ground Entrance.md",
+    "Levels/1_Jungle Japes/Beehive Entrance.md",
+    "Levels/0_DK Isles/Training Ground/Training Ground Exit.md",
     "Levels/0_DK Isles/Level Lobby/Japes Level Entrance.md",
-    "Levels/0_DK Isles/Level Lobby/Japes Lobby Entrance.md",
     "Levels/0_DK Isles/Level Lobby/Japes Lobby Exit.md",
+    "Levels/0_DK Isles/Level Lobby/Japes Lobby Entrance.md",
     "Levels/0_DK Isles/DK Isles/Banana Fairy Entrance.md",
+    "Levels/0_DK Isles/DK Isles/Banana Fairy Exit.md",
     "Levels/0_DK Isles/DK Isles/Snide Hideout Entrance.md",
+    "Levels/0_DK Isles/DK Isles/Snide Hideout Exit.md",
     "Levels/0_DK Isles/DK Isles/K. Lumsy Room Entrance.md",
     "Levels/0_DK Isles/DK Isles/K. Lumsy Room Exit.md",
-    "Levels/0_DK Isles/DK Isles/Snide Hideout Exit.md",
-    "Levels/0_DK Isles/DK Isles/Banana Fairy Exit.md",
-    "Levels/0_DK Isles/Training Ground/DK's Treehouse Entrance.md",
-    "Levels/0_DK Isles/DK Isles/Training Ground Entrance.md",
     "Levels/0_DK Isles/Training Ground/DK's Treehouse Exit.md",
+    "Levels/0_DK Isles/Training Ground/DK's Treehouse Entrance.md",
+    "Assets/Levels/0_DK Isles/Level Lobby/_Factory Lobby Entrance.png",
     "_DK's Treehouse Entrance.md",
-    "Levels/0_DK Isles/Training Ground/Training Ground Exit.md",
     "Levels/7_Creepy Castle/Castle Rooms/Tiny Ballroom Exit.md",
     "Levels/7_Creepy Castle/Castle Surroundings/Chunky Shed Exit.md",
     "Levels/6_Crystal Caves/5 Door Cabin/Donkey 5DC Exit.md",
@@ -206,9 +190,6 @@
     "Misc/Banana Medal.md",
     "Lanky/Balloon.md",
     "Levels/7_Creepy Castle/Underground Upper/Underground Upper Moat Exit.md",
-    "Levels/7_Creepy Castle/Underground Upper/Underground Upper Moat Entrance.md",
-    "Levels/7_Creepy Castle/Underground Upper/Underground Upper Back Door Exit.md",
-    "Levels/7_Creepy Castle/Underground Upper/Underground Upper Back Door Entrance.md",
     "Levels/6_Crystal Caves/5 Door Igloo",
     "Levels/6_Crystal Caves/Caves Main Area",
     "Levels/6_Crystal Caves/Cabin Area",
@@ -223,11 +204,6 @@
     "Assets/Misc/_Finish.png",
     "Assets/Misc/_Start.png",
     "Assets/Phases/_Pufftoss.png",
-    "Assets/Phases/_Madjack.png",
-    "Assets/Phases/_Kutout.png",
-    "Assets/Phases/_Doga2.png",
-    "Assets/Phases/_Doga1.png",
-    "Assets/Phases/_Army2.png",
     "Untitled.canvas",
     "Test.canvas",
     "Mind Map.canvas"

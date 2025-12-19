@@ -1,5 +1,18 @@
 ---
-tags:
+tags: 
   - Loading-Zones
 types: Loading-Zones
+image: Assets/Levels/6_Crystal Caves/5 Door Igloo/_Donkey 5DI Exit.png
 ---
+
+
+
+
+
+
+
+
+
+
+---
+![[_Donkey 5DI Exit.png]]
