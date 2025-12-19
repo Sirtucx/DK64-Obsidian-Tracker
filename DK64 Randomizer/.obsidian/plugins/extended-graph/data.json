@@ -2076,7 +2076,6 @@
           "Madjack",
           "Rabbit",
           "Shared",
-          "Start",
           "Tiny",
           "Tiny-Phase"
         ],
@@ -2339,8 +2338,8 @@
         "nodeSizeMultiplier": 5,
         "showArrow": true,
         "textFadeMultiplier": -3,
-        "centerStrength": 0.697916666666667,
-        "linkDistance": 270,
+        "centerStrength": 0.502857142857143,
+        "linkDistance": 500,
         "linkStrength": 1,
         "repelStrength": 20
       }
