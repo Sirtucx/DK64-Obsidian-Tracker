@@ -2,8 +2,7 @@
 preset:
 types: Loading-Zones
 tags:
-  - Start
-  - Loading-Zones
+  - Main-Areas
 image: Assets/Levels/0_DK Isles/_DK-Isles.png
 ---
 

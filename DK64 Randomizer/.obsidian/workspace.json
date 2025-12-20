@@ -4,17 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "18ee3cfb74a120e8",
+        "id": "001a55f7e6b5afea",
         "type": "tabs",
         "children": [
           {
-            "id": "5b506a58f749d0f0",
+            "id": "e6ea336265cb859a",
             "type": "leaf",
             "state": {
-              "type": "empty",
+              "type": "graph",
               "state": {},
-              "icon": "lucide-file",
-              "title": "New tab"
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
             }
           }
         ],
@@ -132,76 +132,44 @@
       "graph:Open graph view": false
     }
   },
-  "floating": {
-    "id": "3fed9fd8bf774d4d",
-    "type": "floating",
-    "children": [
-      {
-        "id": "8b3c53625d064d26",
-        "type": "window",
-        "children": [
-          {
-            "id": "a71ed270e81ef113",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "5c1c6dfb9e277198",
-                "type": "leaf",
-                "state": {
-                  "type": "graph",
-                  "state": {},
-                  "icon": "lucide-git-fork",
-                  "title": "Graph view"
-                }
-              }
-            ]
-          }
-        ],
-        "direction": "vertical",
-        "x": 392,
-        "y": 111,
-        "width": 1952,
-        "height": 1230,
-        "maximize": true,
-        "zoom": 0.5
-      }
-    ]
-  },
-  "active": "5c1c6dfb9e277198",
+  "active": "e6ea336265cb859a",
   "lastOpenFiles": [
-    "Levels/0_DK Isles/Level Lobby/Japes Lobby Entrance.md",
-    "Levels/0_DK Isles/Level Lobby/Helm Lobby Entrance.md",
-    "Levels/0_DK Isles/Level Lobby/Galleon Lobby Entrance.md",
-    "Levels/0_DK Isles/Level Lobby/Forest Lobby Entrance.md",
-    "Levels/0_DK Isles/Level Lobby/Factory Lobby Entrance.md",
-    "Levels/0_DK Isles/Level Lobby/Caves Lobby Entrance.md",
-    "Levels/0_DK Isles/Level Lobby/Castle Lobby Entrance.md",
-    "Levels/0_DK Isles/Level Lobby/Caves Level Entrance.md",
-    "Levels/0_DK Isles/Level Lobby/Castle Level Entrance.md",
-    "Levels/0_DK Isles/Level Lobby/Aztec Lobby Entrance.md",
-    "Levels/0_DK Isles/Level Lobby/Aztec Level Entrance.md",
-    "Levels/0_DK Isles/DK Isles/Training Ground Entrance.md",
-    "Levels/0_DK Isles/DK Isles/Snide Hideout Entrance.md",
-    "Levels/0_DK Isles/DK Isles/K. Lumsy Room Entrance.md",
-    "Levels/0_DK Isles/DK Isles/Banana Fairy Entrance.md",
+    "Levels/4_Gloomy Galleon/5 Door Ship/Chunky 5DS Entrance.md",
+    "Levels/8_Hideout Helm/Hideout Helm.md",
+    "Levels/1_Jungle Japes/Jungle Japes.md",
+    "Levels/7_Creepy Castle/Creepy Castle.md",
+    "Levels/6_Crystal Caves/Crystal Caves.md",
+    "Levels/4_Gloomy Galleon/Gloomy Galleon.md",
+    "Levels/3_Frantic Factory/Frantic Factory.md",
+    "Levels/2_Angry Aztec/Angry Aztec.md",
     "Levels/0_DK Isles/DK Isles.md",
+    "Levels/5_Fungi Forest/Fungi Forest.md",
+    "Assets/Levels/8_Hideout Helm/_Hideout-Helm.png",
+    "Assets/Levels/8_Hideout Helm",
+    "Levels/8_Hideout Helm",
+    "Levels/1_Jungle Japes/Beehive Entrance.md",
+    "Levels/7_Creepy Castle/Underground Upper/Underground Upper Moat Entrance.md",
+    "Levels/7_Creepy Castle/Underground Upper/Underground Upper Back Door Entrance.md",
+    "Levels/7_Creepy Castle/Underground Lower/Underground Lower Entrance.md",
+    "Levels/7_Creepy Castle/Castle Surroundings/Tiny Trashcan Entrance.md",
+    "Levels/7_Creepy Castle/Castle Surroundings/Lanky Greenhouse Entrance.md",
+    "Levels/7_Creepy Castle/Castle Surroundings/Chunky Shed Entrance.md",
+    "Levels/7_Creepy Castle/Castle Surroundings/Castle Tree Entrance.md",
+    "Levels/7_Creepy Castle/Castle Rooms/Tiny Ballroom Entrance.md",
+    "Levels/7_Creepy Castle/Castle Rooms/Lanky Tower Entrance.md",
+    "Levels/7_Creepy Castle/Castle Rooms/DK Library Entrance.md",
+    "Levels/7_Creepy Castle/Castle Rooms/Diddy Ballroom Entrance.md",
+    "Levels/7_Creepy Castle/Castle Rooms/Chunky Museum Entrance.md",
+    "Levels/7_Creepy Castle/Castle Level Exit.md",
+    "Levels/6_Crystal Caves/Caves Main Area/Lanky Ice Castle Entrance.md",
+    "Levels/6_Crystal Caves/Caves Main Area/Caves Beetle Race Entrance.md",
     "Assets/Levels/0_DK Isles/DK Isles/_Banana Fairy Entrance.png",
-    "Levels/3_Frantic Factory/Factory Level Exit.md",
     "Assets/Levels/0_DK Isles/_DK-Isles.png",
     "Assets/Levels/4_Gloomy Galleon/Shipyard Outskirts/_Tiny Submarine Exit.png",
     "Assets/Levels/4_Gloomy Galleon/Shipyard Outskirts/_Tiny Submarine Entrance.png",
     "Assets/Levels/3_Frantic Factory/_Factory Level Exit.png",
     "Assets/Levels/7_Creepy Castle/Castle Surroundings/_Tiny Trashcan Entrance.png",
     "Assets/Levels/5_Fungi Forest/Mills Area/_Winch Room Entrance.png",
-    "Levels/1_Jungle Japes/Beehive Entrance.md",
-    "Levels/0_DK Isles/Training Ground/Training Ground Exit.md",
-    "Levels/0_DK Isles/Level Lobby/Japes Level Entrance.md",
-    "Levels/0_DK Isles/Level Lobby/Japes Lobby Exit.md",
-    "Levels/0_DK Isles/DK Isles/Banana Fairy Exit.md",
-    "Levels/0_DK Isles/DK Isles/Snide Hideout Exit.md",
-    "Levels/0_DK Isles/DK Isles/K. Lumsy Room Exit.md",
-    "Levels/0_DK Isles/Training Ground/DK's Treehouse Exit.md",
-    "Levels/0_DK Isles/Training Ground/DK's Treehouse Entrance.md",
     "Assets/Levels/0_DK Isles/Level Lobby/_Factory Lobby Entrance.png",
     "Assets/Levels",
     "Levels/6_Crystal Caves/5 Door Igloo",
@@ -211,10 +179,7 @@
     "Levels/5_Fungi Forest/Mushroom Area",
     "Levels/5_Fungi Forest/Mills Area",
     "Levels/4_Gloomy Galleon/Lighthouse Area",
-    "Levels/4_Gloomy Galleon/Shipyard Outskirts",
-    "Levels/4_Gloomy Galleon/2 Door Ship",
     "Assets/Phases/_Beanstalk.png",
-    "Assets/Phases/_Rabbit.png",
     "Untitled.canvas",
     "Test.canvas",
     "Mind Map.canvas"

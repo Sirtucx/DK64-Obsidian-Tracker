@@ -4,7 +4,7 @@ tags:
 types: Loading-Zones
 image: Assets/Levels/5_Fungi Forest/Mushroom Area/_Mushroom Middle Low Entrance.png
 ---
-
+[[Fungi Forest]]
 
 
 
