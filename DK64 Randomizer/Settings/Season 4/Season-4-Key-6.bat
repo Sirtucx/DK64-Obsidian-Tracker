@@ -11,6 +11,7 @@ pushd "%~dp0"
   echo   - Keys
   echo preset:
   echo   - LZR
+  echo   - Scrubs Season 2
   echo ---
   echo Season 4 Preset:
   echo [[Start]]

@@ -1,11 +1,8 @@
 ---
 image: Assets/Shops/_Funky.png
 tags:
-  - Shops
-  - Funky
+  - Shared
 preset:
-  - Season 4
-  - Kill the Rabbit
   - LZR
-  - Plant the Bean
+  - Scrubs Season 2
 ---

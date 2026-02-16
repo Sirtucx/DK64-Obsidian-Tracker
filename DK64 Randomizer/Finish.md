@@ -7,6 +7,7 @@ preset:
   - Kill the Rabbit
   - Plant the Bean
   - LZR
+  - Scrubs Season 2
 ---
 [[DK Phase]]
 [[Diddy Phase]]

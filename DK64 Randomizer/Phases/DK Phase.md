@@ -6,6 +6,7 @@ types: Boss
 preset:
   - Season 4
   - LZR
+  - Scrubs Season 2
 ---
 [[K.Rool Ship]]
 
