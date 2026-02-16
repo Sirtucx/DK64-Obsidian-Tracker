@@ -1,11 +1,8 @@
 ---
 image: Assets/Shops/_Candy.png
 tags:
-  - Shops
-  - Candy
+  - Shared
 preset:
-  - Season 4
-  - Kill the Rabbit
-  - Plant the Bean
   - LZR
+  - Scrubs Season 2
 ---
