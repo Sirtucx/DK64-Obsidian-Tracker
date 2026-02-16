@@ -16,7 +16,7 @@ pushd "%~dp0"
   echo   - LZR
   echo   - Scrubs Season 2
   echo ---
-  echo Season 4 Preset:
+  echo Scrubs Season 2 Preset:
   echo [[Start]]
   echo.
 ) > "%filePath%"
