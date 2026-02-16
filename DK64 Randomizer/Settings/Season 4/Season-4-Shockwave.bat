@@ -10,7 +10,9 @@ pushd "%~dp0"
   echo tags:
   echo   - Shared
   echo preset:
+  echo   - Season 4
   echo   - LZR
+  echo   - Scrubs Season 2
   echo ---
 ) > "%filePath%"
 popd
