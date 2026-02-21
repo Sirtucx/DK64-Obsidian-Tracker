@@ -12,6 +12,7 @@ pushd "%~dp0"
   echo preset:
   echo   - LZR
   echo   - Scrubs Season 2
+  echo   - Season 4
   echo ---
   echo ----------
   echo Place Kong Helm Connections here:
