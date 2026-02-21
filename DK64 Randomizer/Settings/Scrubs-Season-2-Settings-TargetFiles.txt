@@ -1,0 +1,9 @@
+../Shared/Camera.md
+../Shared/Shockwave.md
+../Shared/Climbing.md
+../Keys/Key 1.md
+../Keys/Key 3.md
+../Shared/Simian Slam (Slam 1).md
+../Shops/Cranky.md
+../Shops/Candy.md
+../Shops/Funky.md
