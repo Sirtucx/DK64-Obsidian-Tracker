@@ -86,9 +86,7 @@ After opening the Input State and Stream Graph State, it should look like this:
 
 Cleaning up:
 
-* To remove connections you simply need to go into the respective node and remove the connection strings ([[Node Name]]). You can click on the nodes with arrows being pointed to, to open the file and manage it. I would recommend doing this with the `Stream Graph` state as it's easier to view the connections.
-* At the bottom of each node you will see the `Linked Mentions` and see potential references to other nodes, you can click on these to go further and if you reach a dead end, there is a back button below the tab name.
-* Please be wary not to remove the references in the K. Rool Phases nodes when using the `Linked Mentions` tool.
+* Once you have finished a seed and wish to cleanup the connections, in the `DK64-Obsidian-Tracker\DK64 Randomizer\Settings` folder you will find a Reset-Tracker.bat file that will clear any pre-existing connections. This will also include any of the preset modifications made above. If for example, you were on Season 4 and cleared it then you would need to re-apply the settings batch above to re-add the connections.
 
 Other things to note:
 
