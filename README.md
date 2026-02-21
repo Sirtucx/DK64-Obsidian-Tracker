@@ -59,6 +59,7 @@ Located in the `DK64-Obsidian-Tracker\DK64 Randomizer\Settings` folder are a bun
 - LZR
 - Kill the Rabbit (Elmur)
 - Plant the Bean (Bean Blitz)
+- Scrubs Season 2
 
 You only need to click on the batch file in the folder and it will override the starting items and their connections. Note, this does not clear any existing connections for non-starting items.
 
