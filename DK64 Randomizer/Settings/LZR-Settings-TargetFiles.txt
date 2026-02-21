@@ -1,0 +1,3 @@
+../Shared/Climbing.md
+../Shared/Diving.md
+../Shared/Simian Slam (Slam 1).md

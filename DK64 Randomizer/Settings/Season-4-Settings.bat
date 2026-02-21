@@ -1,28 +1,53 @@
 @echo off
-setlocal enabledelayedexpansion
+setlocal EnableDelayedExpansion
 
-rem CRITICAL FIX: Change to script directory first
-cd /D "%~dp0"
+:: Get batch file base name (without extension)
+set "ScriptName=%~n0"
 
-rem Set target folder (now properly referenced)
-set "TARGET_DIR=%~dp0Season 4"
+:: Build matching target list filename
+set "ListFile=%ScriptName%-TargetFiles.txt"
 
-rem Check if directory exists
-if not exist "%TARGET_DIR%" (
-    echo ERROR: Directory "%TARGET_DIR%" not found!
-    echo Make sure the "Season 4" folder is in the same location as this batch file.
+:: Check if list file exists
+if not exist "%ListFile%" (
+    echo Target file list not found: %ListFile%
     pause
-    exit /b 1
+    exit /b
 )
 
-echo Found directory: %TARGET_DIR%
-cd /D "%TARGET_DIR%"
-echo Running all batch files in "%TARGET_DIR%"...
+echo Using target list: %ListFile%
+echo.
 
-for %%F in (*.bat) do (
-    echo Running "%%F"...
-    call "%%F"
+:: Loop through each relative path inside the list file
+for /f "usebackq delims=" %%T in ("%ListFile%") do (
+
+    if exist "%%T" (
+        echo Processing %%T
+
+        set "count=0"
+        set "TempFile=%%T.tmp"
+
+        break > "!TempFile!"
+
+        :: Copy content through second ---
+        for /f "usebackq delims=" %%L in ("%%T") do (
+            if !count! LSS 2 (
+                echo %%L>>"!TempFile!"
+
+                if "%%L"=="---" (
+                    set /a count+=1
+                )
+            )
+        )
+
+        :: Append replacement text
+        echo Season 4 Preset: [[Start]]>>"!TempFile!"
+
+        move /Y "!TempFile!" "%%T" >nul
+    ) else (
+        echo File not found: %%T
+    )
 )
 
-echo All batch files completed.
+echo.
+echo Done.
 pause
